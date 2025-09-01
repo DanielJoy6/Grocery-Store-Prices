@@ -1,12 +1,7 @@
 import pyautogui as pag
-import pydirectinput as directInput
-import requests
-from bs4 import BeautifulSoup
 import time
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 import pyperclip
+import pandas as pd
 
 foods = ["oreos"]
 products = []
@@ -107,7 +102,7 @@ def Walmart():
             pag.moveTo(28, 82, 1) #Back button
             pag.click()
             time.sleep(2)
-            source.append("Walmart")
+            sources.append("Walmart")
 
 def FoodCity():
     visitWebsite("foodcity.com")
@@ -240,7 +235,6 @@ print(prices_per_ounce)
 print(ounces)
 print(sources)
 
-import pandas as pd
 df = pd.DataFrame(products, original_prices, prices_per_ounce, ounces, sources, columns=['Product', 'Price', 'Price Per Ounce', 'Ounces', 'Source'])
 df.to_csv('grocery store.csv')
 
