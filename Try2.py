@@ -11,12 +11,14 @@ ounces = []
 sources = []
 
 def visitWebsite(link):
+    """Helper function to visit a website using browser address bar + shortkeys"""
     pag.hotkey("ctrl", "l") #browser address bar
     pag.write(link, interval=0.1)
     pag.press('enter')
     time.sleep(4)
 
 def Kroger():
+    """Kroger"""
     visitWebsite("kroger.com")
     print("Switch to Kroger.. 10 seconds")
     time.sleep(3)
@@ -29,11 +31,11 @@ def Kroger():
         pag.press('enter')
         time.sleep(6)
         pag.hotkey("ctrl", "u")
-        time.sleep(5)
+        time.sleep(3)
         pag.hotkey("ctrl", "a")
         time.sleep(0.3)
         pag.hotkey("ctrl", "c")
-        time.sleep(0.5)
+        time.sleep(1)
         html = pyperclip.paste()
         soup = BeautifulSoup(html, "html.parser")
         product_titles = soup.find_all("span", {"data-testid": "cart-page-item-description"})
@@ -56,6 +58,7 @@ def Kroger():
         time.sleep(1)
 
 def Walmart():
+    """Walmart"""
     visitWebsite("walmart.com")
     print("Switch to Walmart.. 5 seconds")
     time.sleep(5)
@@ -74,7 +77,7 @@ def Walmart():
         pag.hotkey("ctrl", "a")
         time.sleep(0.2)
         pag.hotkey("ctrl", "c")
-        time.sleep(0.3)
+        time.sleep(1)
         html = pyperclip.paste()
         soup = BeautifulSoup(html, "html.parser")
         product_titles = soup.find_all("span", {"data-automation-id": "product-title"})
@@ -84,12 +87,12 @@ def Walmart():
         print("Found", len(price_containers), "price containers")
         for container in price_containers:
             price_span = container.find("span", {"class": "w_iUH7"})
-            if(price_span):
+            if price_span:
                 try:
                     price = price_span.get_text(strip=True)
                     price = price.split('$')[-1]
                     temp_prices.append(float(price))
-                except:
+                except ValueError:
                     print("Error fetching price")
                     temp_prices.append(0.0)
             else:
@@ -109,6 +112,7 @@ def Walmart():
         time.sleep(0.2)
 
 def FoodCity():
+    """Food City Function"""
     visitWebsite("foodcity.com")
     for food in foods:
         pag.moveTo(624, 238) #Search bar
@@ -125,7 +129,7 @@ def FoodCity():
         pag.hotkey("ctrl", "a")
         time.sleep(0.2)
         pag.hotkey("ctrl", "c")
-        time.sleep(0.3)
+        time.sleep(1)
         html = pyperclip.paste()
         soup = BeautifulSoup(html, "html.parser")
         product_titles = soup.find_all("span", {"class": "line-clamp--2"})
@@ -141,8 +145,8 @@ def FoodCity():
                 text = ounce.get_text(strip=True)
                 o_index = text.index("o")
                 ounces.append(text[0:o_index])
-            except:
-                ounces.append(ounce.get_text(strip=True))
+            except ValueError:
+                ounces.append(float(ounce.get_text(strip=True)))
             prices.append(price.get_text(strip=True))
             sources.append("Food City")
             counter += 1
@@ -150,7 +154,7 @@ def FoodCity():
                 break
         pag.hotkey("ctrl", "w")
         time.sleep(0.2)
-
+'''
 def Samsclub():
     visitWebsite("samsclub.com")
     for food in foods:
@@ -170,10 +174,14 @@ def Samsclub():
         pag.hotkey("ctrl", "a")
         time.sleep(0.2)
         pag.hotkey("ctrl", "c")
-        time.sleep(0.3)
+        time.sleep(1)
+        pag.hotkey("ctrl", "c")
+        time.sleep(1)
         html = pyperclip.paste()
+        time.sleep(0.5)
         soup = BeautifulSoup(html, "html.parser")
         product_titles = soup.find_all("span", {"data-automation-id": "product-title"})
+        print("Found", len(product_titles), "product titles")
         temp_prices = []
         price_containers = soup.find_all("div", {"data-automation-id": "product-price"})
         for container in price_containers:
@@ -186,19 +194,19 @@ def Samsclub():
             products.append(product.get_text(strip=True))
             ounces.append(0)
             prices.append(price.get_text(strip=True))
-            sources.append("Food City")
+            sources.append("Samsclub")
             counter += 1
             if counter > 5:
                 break
         pag.hotkey("ctrl", "w")
         time.sleep(0.2)
-
+'''
 
 time.sleep(2)
 #Kroger()
 Walmart()
 #FoodCity()
-#Samsclub()
+#Samsclub() - NOT WORKING
 
 print("PRODUCTS")
 print(products)
@@ -215,5 +223,4 @@ df = pd.DataFrame({
     'Ounces': ounces,
     'Source': sources
 })
-df.to_csv('grocery store.csv')
-
+df.to_csv('grocery store.csv', index = False)
