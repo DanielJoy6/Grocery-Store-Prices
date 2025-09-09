@@ -24,17 +24,32 @@ def findOunces(productTitle):
     temparray = productTitle.split()
     if("oz" in temparray):
         if(temparray[temparray.index("oz")-1] == "fl"):
-            total = temparray[temparray.index("fl")-1])
+            total = temparray[temparray.index("fl")-1]
         else:
-            total = temparray[temparray.index("oz")-1])
+            total = temparray[temparray.index("oz")-1]
     elif("lb" in temparray):
-        total = 16*int(temparray[temparray.index("lb")-1]))
+        total = 16*int(temparray[temparray.index("lb")-1])
     else:
         for item in temparray:
             if "lb" in item:
-                total = int(item[:item.index("lb")]))
+                total = int(item[:item.index("lb")])
         total = 0
     return total
+
+def findOuncesKroger(title, price, text):
+    """Fixes Kroger's tendency to fix amount and price/amount in same field"""
+    if(title.index("Â®") != 0):
+        title = title[:title.index("Â®")] + title[title.index("Â®")+2:]
+
+    if("$" in text):
+        number = float(text[1:text.index("/")])
+        ounces = price/number
+        text = ounces
+    else:
+        textarray = text.split()
+        if("oz" in textarray or "fl oz" in textarray or "lb" in textarray):
+            text = float(textarray[0])
+    return title, price, text
 
 def Kroger():
     """Kroger"""
@@ -62,10 +77,11 @@ def Kroger():
         price_tags = soup.find_all("data", {"class": "kds-Price kds-Price--alternate"})
         counter = 0
         for product, ounce, price in zip(product_titles, temp_ounces, price_tags):
-            print(product.get_text(strip=True), ": ", price["value"])
-            products.append(product.get_text(strip=True))
-            prices.append(price["value"])
-            ounces.append(ounce.get_text(strip=True))
+            product, price, ounce = findOuncesKroger(product.get_text(strip=True), price["value"], ounce.get_text(strip=True))
+            print(product, ": ", price)
+            products.append(product)
+            prices.append(price)
+            ounces.append(ounce)
             sources.append("Kroger")
             counter += 1
             if counter > 5:
@@ -222,8 +238,8 @@ def Samsclub():
 '''
 
 time.sleep(2)
-#Kroger()
-Walmart()
+Kroger()
+#Walmart()
 #FoodCity()
 #Samsclub() - NOT WORKING
 
