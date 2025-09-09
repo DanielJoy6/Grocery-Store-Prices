@@ -4,7 +4,7 @@ import pyperclip
 import pandas as pd
 from bs4 import BeautifulSoup
 
-foods = ["original lays chips"]
+foods = ["prego sauce", "vanilla", "powdered sugar"]#, "canola oil", "brown sugar", "imperial margarine", "cinnamon", "baking powder", "baking soda", "silk soy milk", "silk soy yogurt", "long grain rice", "sugar", "red kidney beans", "great northern beans", "birds eye streamfresh corn", "birds eye peas", "original lays chips", "double-stuf oreos", "welches strawberry jelly", "aluminum foil", "gold medal flour", "club crackers", "Phish Food Non-Dairy Oat"]
 products = []
 prices = []
 ounces = []
@@ -16,6 +16,25 @@ def visitWebsite(link):
     pag.write(link, interval=0.1)
     pag.press('enter')
     time.sleep(4)
+
+def findOunces(productTitle):
+    """Find ounces using product title when not explicitly given"""
+    total = 0
+    productTitle = productTitle.lower()
+    temparray = productTitle.split()
+    if("oz" in temparray):
+        if(temparray[temparray.index("oz")-1] == "fl"):
+            total = temparray[temparray.index("fl")-1])
+        else:
+            total = temparray[temparray.index("oz")-1])
+    elif("lb" in temparray):
+        total = 16*int(temparray[temparray.index("lb")-1]))
+    else:
+        for item in temparray:
+            if "lb" in item:
+                total = int(item[:item.index("lb")]))
+        total = 0
+    return total
 
 def Kroger():
     """Kroger"""
@@ -63,7 +82,7 @@ def Walmart():
     print("Switch to Walmart.. 5 seconds")
     time.sleep(5)
     for food in foods:
-        pag.moveTo(1160, 173) #Search bar
+        pag.moveTo(1381, 165) #Search bar
         time.sleep(0.5)
         pag.click()
         time.sleep(0.5)
@@ -103,7 +122,7 @@ def Walmart():
             print(product.get_text(strip=True), ": ", price)
             products.append(product.get_text(strip=True))
             prices.append(price)
-            ounces.append(0)
+            ounces.append(findOunces(product.get_text(strip=True)))
             sources.append("Walmart")
             counter += 1
             if counter > 5:
