@@ -4,11 +4,21 @@ import pyperclip
 import pandas as pd
 from bs4 import BeautifulSoup
 
-foods = ["prego sauce", "vanilla", "powdered sugar"]#, "canola oil", "brown sugar", "imperial margarine", "cinnamon", "baking powder", "baking soda", "silk soy milk", "silk soy yogurt", "long grain rice", "sugar", "red kidney beans", "great northern beans", "birds eye streamfresh corn", "birds eye peas", "original lays chips", "double-stuf oreos", "welches strawberry jelly", "aluminum foil", "gold medal flour", "club crackers", "Phish Food Non-Dairy Oat"]
+#List of foods to search for
+foods = ["prego sauce", "vanilla", "powdered sugar", "canola oil", "brown sugar", "cinnamon",
+         "baking powder", "baking soda", "silk soy milk", "silk soy yogurt", "long grain rice",
+         "sugar", "red kidney beans", "great northern beans", "birds eye streamfresh corn",
+         "birds eye peas", "double-stuf oreos", "welches strawberry jelly", "aluminum foil",
+         "gold medal flour", "club crackers", "imperial margarine", "Phish Food Non-Dairy Oat",
+         "original lays chips",]
+
+#Blank arrays to be filled with product information
 products = []
 prices = []
 ounces = []
 sources = []
+prices_per_ounce = []
+categories = []
 
 def visitWebsite(link):
     """Helper function to visit a website using browser address bar + shortkeys"""
@@ -21,31 +31,40 @@ def findOunces(productTitle):
     """Find ounces using product title when not explicitly given"""
     total = 0
     productTitle = productTitle.lower()
-    temparray = productTitle.split()
+    temparray = productTitle.split() #Split title into separate words
     if("oz" in temparray):
-        if(temparray[temparray.index("oz")-1] == "fl"):
+        if(temparray[temparray.index("oz")-1] == "fl"): #If in fl oz
             total = temparray[temparray.index("fl")-1]
-        else:
+        else: #if just in oz
             total = temparray[temparray.index("oz")-1]
     elif("lb" in temparray):
         total = 16*int(temparray[temparray.index("lb")-1])
+    elif("gl" in temparray):
+        total = 128*int(temparray[temparray.index("lb")-1])
     else:
         for item in temparray:
             if "lb" in item:
-                total = int(item[:item.index("lb")])
+                try:
+                    total = int(item[:item.index("lb")])
+                except:
+                    total = 0
         total = 0
+    #TODO - Implement "pack of 3"
     return total
 
 def findOuncesKroger(title, price, text):
     """Fixes Kroger's tendency to fix amount and price/amount in same field"""
-    if(title.index("Â®") != 0):
+    if("Â®" in title): #Remove the Registered symbol from product titles
         title = title[:title.index("Â®")] + title[title.index("Â®")+2:]
 
-    if("$" in text):
+    if("$" in text): #If it grabbed price per amount instead of amount
         number = float(text[1:text.index("/")])
-        ounces = price/number
-        text = ounces
-    else:
+        try:
+            ounces = float(price)/number
+            text = ounces
+        except:
+            text = 0
+    else: #It grabbed ounces correctly
         textarray = text.split()
         if("oz" in textarray or "fl oz" in textarray or "lb" in textarray):
             text = float(textarray[0])
@@ -64,31 +83,40 @@ def Kroger():
         pag.write(food, interval=0.1) #type in food
         pag.press('enter')
         time.sleep(6)
-        pag.hotkey("ctrl", "u")
+        pag.hotkey("ctrl", "u") #Open up source code
         time.sleep(3)
-        pag.hotkey("ctrl", "a")
+        pag.hotkey("ctrl", "a") #Copy it all
         time.sleep(0.3)
         pag.hotkey("ctrl", "c")
-        time.sleep(1)
+        time.sleep(1.5)
         html = pyperclip.paste()
-        soup = BeautifulSoup(html, "html.parser")
+        soup = BeautifulSoup(html, "html.parser") #Pass into beautiful soup
         product_titles = soup.find_all("span", {"data-testid": "cart-page-item-description"})
+        time.sleep(0.1)
         temp_ounces = soup.find_all("span", {"class": "kds-Text--s text-neutral-more-prominent"})
+        time.sleep(0.1)
         price_tags = soup.find_all("data", {"class": "kds-Price kds-Price--alternate"})
+        time.sleep(0.1)
+        print("Found", len(product_titles), "product titles")
         counter = 0
         for product, ounce, price in zip(product_titles, temp_ounces, price_tags):
-            product, price, ounce = findOuncesKroger(product.get_text(strip=True), price["value"], ounce.get_text(strip=True))
+            product, price, ounce = findOuncesKroger(product.get_text(strip=True), price["value"], ounce.get_text(strip=True)) #Get text in good format
             print(product, ": ", price)
             products.append(product)
             prices.append(price)
             ounces.append(ounce)
+            try: #Sometimes fails
+                prices_per_ounce.append(float(price)/float(ounce))
+            except:
+                prices_per_ounce = 0
+            categories.append(foods.index(food))
             sources.append("Kroger")
             counter += 1
             if counter > 5:
                 break #
-        pag.hotkey("ctrl", "w")
+        pag.hotkey("ctrl", "w") #Close out source code
         time.sleep(0.2)
-        pag.moveTo(1552, 169)
+        pag.moveTo(1552, 169) #Move back to search bar
         pag.click()
         time.sleep(1)
 
@@ -105,16 +133,16 @@ def Walmart():
         pag.write(food, interval=0.1) #type in food
         pag.press('enter')
         time.sleep(5)
-        pag.hotkey("ctrl", "r")
+        pag.hotkey("ctrl", "r") #Refresh since it messes up sometimes
         time.sleep(5)
-        pag.hotkey("ctrl", "u")
+        pag.hotkey("ctrl", "u") #Open source code
         time.sleep(4)
         pag.hotkey("ctrl", "a")
         time.sleep(0.2)
         pag.hotkey("ctrl", "c")
         time.sleep(1)
         html = pyperclip.paste()
-        soup = BeautifulSoup(html, "html.parser")
+        soup = BeautifulSoup(html, "html.parser") #Pass into BeautifulSoup
         product_titles = soup.find_all("span", {"data-automation-id": "product-title"})
         #price_per_ounce = soup.find_all("div", {"data-testid": "product-price-per-unit"})
         temp_prices = []
@@ -139,6 +167,8 @@ def Walmart():
             products.append(product.get_text(strip=True))
             prices.append(price)
             ounces.append(findOunces(product.get_text(strip=True)))
+            prices_per_ounce.append(0)
+            categories.append(foods.index(food))
             sources.append("Walmart")
             counter += 1
             if counter > 5:
@@ -239,23 +269,25 @@ def Samsclub():
 
 time.sleep(2)
 Kroger()
-#Walmart()
+Walmart()
 #FoodCity()
 #Samsclub() - NOT WORKING
 
-print("PRODUCTS")
+print("products")
 print(products)
-print("PRICES")
+print("prices")
 print(prices)
-print("OUNCES")
+print("ounces")
 print(ounces)
-print("SOURCES")
+print("sources")
 print(sources)
 
-df = pd.DataFrame({
+df = pd.DataFrame({ #Put into dataframe for saving as csv file
     'Product': products,
     'Price': prices,
     'Ounces': ounces,
-    'Source': sources
+    'Source': sources,
+    'Price per ounce': prices_per_ounce,
+    'Categories': categories
 })
 df.to_csv('grocery store.csv', index = False)
