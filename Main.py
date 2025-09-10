@@ -1,5 +1,5 @@
-import pyautogui as pag
 import time
+import pyautogui as pag
 import pyperclip
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -20,26 +20,26 @@ sources = []
 prices_per_ounce = []
 categories = []
 
-def visitWebsite(link):
+def visit_website(link):
     """Helper function to visit a website using browser address bar + shortkeys"""
     pag.hotkey("ctrl", "l") #browser address bar
     pag.write(link, interval=0.1)
     pag.press('enter')
     time.sleep(4)
 
-def findOunces(productTitle):
+def find_ounces(product_title):
     """Find ounces using product title when not explicitly given"""
     total = 0
-    productTitle = productTitle.lower()
-    temparray = productTitle.split() #Split title into separate words
-    if("oz" in temparray):
-        if(temparray[temparray.index("oz")-1] == "fl"): #If in fl oz
+    product_title = product_title.lower()
+    temparray = product_title.split() #Split title into separate words
+    if "oz" in temparray:
+        if temparray[temparray.index("oz")-1] == "fl": #If in fl oz
             total = temparray[temparray.index("fl")-1]
         else: #if just in oz
             total = temparray[temparray.index("oz")-1]
-    elif("lb" in temparray):
+    elif "lb" in temparray:
         total = 16*int(temparray[temparray.index("lb")-1])
-    elif("gl" in temparray):
+    elif "gl" in temparray:
         total = 128*int(temparray[temparray.index("lb")-1])
     else:
         for item in temparray:
@@ -49,19 +49,18 @@ def findOunces(productTitle):
                 except:
                     total = 0
         total = 0
-    #TODO - Implement "pack of 3"
     return total
 
-def findOuncesKroger(title, price, text):
+def find_ounces_kroger(title, price, text):
     """Fixes Kroger's tendency to fix amount and price/amount in same field"""
-    if("Â®" in title): #Remove the Registered symbol from product titles
+    if "Â®" in title: #Remove the Registered symbol from product titles
         title = title[:title.index("Â®")] + title[title.index("Â®")+2:]
 
-    if("$" in text): #If it grabbed price per amount instead of amount
+    if "$" in text: #If it grabbed price per amount instead of amount
         number = float(text[1:text.index("/")])
         try:
-            ounces = float(price)/number
-            text = ounces
+            tempounces = float(price)/number
+            text = tempounces
         except:
             text = 0
     else: #It grabbed ounces correctly
@@ -70,9 +69,9 @@ def findOuncesKroger(title, price, text):
             text = float(textarray[0])
     return title, price, text
 
-def Kroger():
+def kroger():
     """Kroger"""
-    visitWebsite("kroger.com")
+    visit_website("kroger.com")
     print("Switch to Kroger.. 10 seconds")
     time.sleep(3)
     for food in foods:
@@ -100,7 +99,8 @@ def Kroger():
         print("Found", len(product_titles), "product titles")
         counter = 0
         for product, ounce, price in zip(product_titles, temp_ounces, price_tags):
-            product, price, ounce = findOuncesKroger(product.get_text(strip=True), price["value"], ounce.get_text(strip=True)) #Get text in good format
+            product, price, ounce = find_ounces_kroger(product.get_text(strip=True),
+                                         price["value"], ounce.get_text(strip=True)) #Get text in good format
             print(product, ": ", price)
             products.append(product)
             prices.append(price)
@@ -120,9 +120,9 @@ def Kroger():
         pag.click()
         time.sleep(1)
 
-def Walmart():
+def walmart():
     """Walmart"""
-    visitWebsite("walmart.com")
+    visit_website("walmart.com")
     print("Switch to Walmart.. 5 seconds")
     time.sleep(5)
     for food in foods:
@@ -166,7 +166,7 @@ def Walmart():
             print(product.get_text(strip=True), ": ", price)
             products.append(product.get_text(strip=True))
             prices.append(price)
-            ounces.append(findOunces(product.get_text(strip=True)))
+            ounces.append(find_ounces(product.get_text(strip=True)))
             prices_per_ounce.append(0)
             categories.append(foods.index(food))
             sources.append("Walmart")
@@ -176,9 +176,9 @@ def Walmart():
         pag.hotkey("ctrl", "w")
         time.sleep(0.2)
 
-def FoodCity():
+def food_city():
     """Food City Function"""
-    visitWebsite("foodcity.com")
+    visit_website("foodcity.com")
     for food in foods:
         pag.moveTo(624, 238) #Search bar
         time.sleep(0.3)
@@ -268,8 +268,8 @@ def Samsclub():
 '''
 
 time.sleep(2)
-Kroger()
-Walmart()
+kroger()
+walmart()
 #FoodCity()
 #Samsclub() - NOT WORKING
 
