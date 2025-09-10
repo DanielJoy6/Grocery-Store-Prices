@@ -9,6 +9,9 @@ This program uses Python's PyAutoGui library to scrape Walmart + Kroger's websit
 - Results are tagged with a category to find lowest price/ounce for each search term
 - Results are exported to a csv to be cleaned up and examined.
 
+## Example GIF
+![MyGIF](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXY1Y20yeDA1YXk4b2t6MmMzaXF0ZzNhbGUzYTF6a3loMHEzd2MxNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/NQR64tyRWubnP6y6Qy/giphy.gif)
+
 ## Installation Guide
 1. Clone the repo
 ```
