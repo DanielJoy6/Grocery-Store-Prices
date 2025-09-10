@@ -10,7 +10,7 @@ foods = ["prego sauce", "vanilla", "powdered sugar", "canola oil", "brown sugar"
          "sugar", "red kidney beans", "great northern beans", "birds eye streamfresh corn",
          "birds eye peas", "double-stuf oreos", "welches strawberry jelly", "aluminum foil",
          "gold medal flour", "club crackers", "imperial margarine", "Phish Food Non-Dairy Oat",
-         "original lays chips",]
+         "original lays chips"]
 
 #Blank arrays to be filled with product information
 products = []
@@ -108,7 +108,7 @@ def Kroger():
             try: #Sometimes fails
                 prices_per_ounce.append(float(price)/float(ounce))
             except:
-                prices_per_ounce = 0
+                prices_per_ounce.append(0)
             categories.append(foods.index(food))
             sources.append("Kroger")
             counter += 1
@@ -273,14 +273,12 @@ Walmart()
 #FoodCity()
 #Samsclub() - NOT WORKING
 
-print("products")
-print(products)
-print("prices")
-print(prices)
-print("ounces")
-print(ounces)
-print("sources")
-print(sources)
+print("products:", len(products))
+print("prices:", len(prices))
+print("ounces:", len(ounces))
+print("sources:", len(sources))
+print("prices per ounces:", len(prices_per_ounce))
+print("categories:", len(categories))
 
 df = pd.DataFrame({ #Put into dataframe for saving as csv file
     'Product': products,
