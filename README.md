@@ -9,6 +9,21 @@ This program uses Python's PyAutoGui library to scrape Walmart + Kroger's websit
 - Results are tagged with a category to find lowest price/ounce for each search term
 - Results are exported to a csv to be cleaned up and examined.
 
+## Installation Guide
+1. Clone the repo
+```
+git clone https://github.com/USERNAME/Grocery-Store-Prices.git
+cd Grocery-Store-Prices
+```
+2. Install required packages
+```
+pip install pyautogui bs4 pyperclip pandas 
+```
+3. Run main file
+```
+python main.py
+```
+
 ## Packages Used
 - PyAutoGui - mouse movement
 - BeautifulSoup - HTML parsing
