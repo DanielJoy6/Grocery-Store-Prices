@@ -1,41 +1,76 @@
+"""Helper file for all Food City Stuff"""
+import time
+import pyautogui as pag
+import pyperclip
+from bs4 import BeautifulSoup
 
-def food_city():
+def find_ounces(text):
+    """Helper function to parse through different sizes"""
+    print(text)
+    if "perlb" in text:
+        return 16
+    if"oz" in text:
+        return text[:text.index("oz")]
+    return 0
+
+
+def food_city(foods, products, prices, ounces, sources, prices_per_ounce, categories):
     """Food City Function"""
-    visit_website("foodcity.com")
+    pag.hotkey("ctrl", "l") #browser address bar
+    pag.write("foodcity.com", interval=0.1)
+    pag.press('enter')
+    time.sleep(4)
+    print("Switching to Food City.. 5 seconds")
     for food in foods:
         pag.moveTo(624, 238) #Search bar
-        time.sleep(0.3)
+        time.sleep(0.5)
         pag.click()
-        time.sleep(0.3)
-        pag.press('delete', presses=10)
-        time.sleep(0.1)
-        pag.write(food, interval=0.05) #type in food
+        time.sleep(0.5)
+        pag.write(food, interval=0.1) #type in food
         pag.press('enter')
         time.sleep(4)
-        pag.hotkey("ctrl", "u")
-        time.sleep(3)
-        pag.hotkey("ctrl", "a")
-        time.sleep(0.2)
+        pag.hotkey("ctrl", "shift", "i") #Open inspect
+        time.sleep(4)
+        pag.moveTo(1391, 214)
+        time.sleep(0.5)
+        pag.click()
+        time.sleep(0.1)
         pag.hotkey("ctrl", "c")
+        time.sleep(1)
+        pag.hotkey("ctrl", "shift", "i") #Close inspect
         time.sleep(1)
         html = pyperclip.paste()
         soup = BeautifulSoup(html, "html.parser")
-        product_titles = soup.find_all("span", {"class": "line-clamp--2"})
+        product_titles1 = soup.find_all("span", {"class": "d-block truncate-1"})
+        product_titles2 = soup.find_all("span", {"class": "line-clamp--2"})
         temp_ounces = soup.find_all("span", {"class": "clearfix tile-item__product__size"})
         temp_prices = soup.find_all("span", {"class": "clearfix tile-item__product__price deal__"})
-        #print("Found", len(product_titles), "titles and", len(temp_prices), "prices")
+        print("Found", len(product_titles1), len(product_titles2), "titles,",
+              len(temp_ounces), "ounces, and", len(temp_prices), "prices")
         counter = 0
-        for product, ounce, price in zip(product_titles, temp_ounces, temp_prices):
-            print(product.get_text(strip=True), ": ", price.get_text(strip=True))
-            products.append(product.get_text(strip=True))
-
+        for p1, p2, ounce_element, price_element in zip(product_titles1, product_titles2, temp_ounces, temp_prices):
+            full_title = p1.get_text(strip=True) + " " + p2.get_text(strip=True)
+            price = price_element.get_text(strip=True)
+            print(full_title, ": ", price)
+            products.append(full_title)
             try:
-                text = ounce.get_text(strip=True)
-                o_index = text.index("o")
-                ounces.append(text[0:o_index])
+                ounce = find_ounces(ounce_element.get_text(strip=True))
             except ValueError:
-                ounces.append(float(ounce.get_text(strip=True)))
-            prices.append(price.get_text(strip=True))
+                print("Error fetching ounces")
+                ounce = 0.0
+            try:
+                price = price.split('$')[-1]
+            except ValueError:
+                print("Error fetching price")
+                price = 0.0
+            try:
+                price_per_ounce = price/ounce
+            except ValueError:
+                price_per_ounce = 0
+            prices.append(float(price))
+            ounces.append(ounce)
+            prices_per_ounce.append(price_per_ounce)
+            categories.append(foods.index(food))
             sources.append("Food City")
             counter += 1
             if counter > 5:

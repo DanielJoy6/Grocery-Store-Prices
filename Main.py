@@ -3,25 +3,27 @@ import time
 import pandas as pd
 from kroger import kroger
 from walmart import walmart
+from target import target
+from food_city import food_city
 
 #List of foods to search for
 
-veggies = ["birds eye streamfresh corn","birds eye peas", "russet potatoes",
-           "shredded carrots", "celery", "zucchini", "vegetable broth",
-           "white onion"]
 fruit = ["banana", "welches strawberry jelly", "strawberries", "watermelon slices",
          "granny smith apples"]
+veggies = ["birds eye streamfresh corn","birds eye peas", "russet potatoes",
+           "shredded carrots", "celery", "zucchini", "vegetable broth",
+           "white onion", "spinach"]
 meat = ["porkchop loin chop boneless", "chicken breasts boneless"]
 dairy = ["silk soy milk", "silk soy yogurt", "daiya non-dairy cheddar cheese"]
-odd = ["traditional prego sauce","red kidney beans", "great northern beans", "long grain rice",
-       "italian seasoning"]
+other = ["traditional prego sauce","red kidney beans", "great northern beans", "long grain rice",
+       "italian seasoning", "cherry coke"]
 baking = ["granulated sugar", "All-purpose flour", "vanilla", "powdered sugar",
           "canola oil", "brown sugar", "cinnamon", "baking powder", "baking soda",
           "imperial margarine"]
 snacks = ["double-stuf oreos", "Phish food non-dairy oat", "original lays chips", "club crackers"]
 
 
-foods = veggies+fruit+meat+dairy+odd+baking+snacks
+foods = fruit+veggies+meat+dairy+other+baking+snacks
 
 #Blank arrays to be filled with product information
 products = []
@@ -31,12 +33,14 @@ sources = []
 prices_per_ounce = []
 categories = []
 
-
 time.sleep(2)
+food_city(foods, products, prices, ounces, sources, prices_per_ounce, categories)
+time.sleep(1)
+target(foods, products, prices, ounces, sources, prices_per_ounce, categories)
+time.sleep(1)
 kroger(foods, products, prices, ounces, sources, prices_per_ounce, categories)
+time.sleep(1)
 walmart(foods, products, prices, ounces, sources, prices_per_ounce, categories)
-#FoodCity()
-#Samsclub() - NOT WORKING
 
 print("products:", len(products))
 print("prices:", len(prices))
