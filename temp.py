@@ -1,20 +1,26 @@
-from bs4 import BeautifulSoup
+"""Temporary testing file"""
+import time
+import pandas as pd
+from target import target
 
-def find_ounces(text):
-  print(text)
-  if("perlb" in text):
-    return 16
-  if("perpk" in text):
-     return 0
-  if("oz" in text):
-     return text[:text.index("oz")]
-  return 0
+foods = ["banana"]
 
-html = """<span class="clearfix tile-item__product__size">
-								2&nbsp;<abbr title="ounce">oz.</abbr>							</span>"""
-soup = BeautifulSoup(html, "html.parser")
-temp_ounces = soup.find_all("span", {"class": "clearfix tile-item__product__size"})
+products = []
+prices = []
+ounces = []
+sources = []
+prices_per_ounce = []
+categories = []
 
-for item in temp_ounces:
-    print(find_ounces(item.get_text(strip=True)))
-
+time.sleep(3)
+target(foods, products, prices, ounces, sources, prices_per_ounce, categories)
+time.sleep(1)
+df = pd.DataFrame({
+    'Product': products,
+    'Price': prices,
+    'Ounces': ounces,
+    'Source': sources,
+    'Price per ounce': prices_per_ounce,
+    'Categories': categories
+})
+df.to_csv('temporary grocery store.csv', index = False)

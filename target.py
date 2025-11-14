@@ -35,31 +35,36 @@ def target(foods, products, prices, ounces, sources, prices_per_ounce, categorie
     pag.press('enter')
     time.sleep(4)
     print("Switching to Target.. 5 seconds")
-    time.sleep(5)
+    pag.hotkey("ctrl", "shift", "i") #Open inspect
+    time.sleep(4)
     for food in foods:
-        pag.moveTo(1059, 237) #Search bar
+        pag.moveTo(384, 302) #Search bar
         time.sleep(0.5)
         pag.click()
         time.sleep(0.5)
+        pag.hotkey("ctrl", "a")
+        time.sleep(0.2)
+        pag.press("delete")
+        time.sleep(0.1)
         pag.write(food, interval=0.1) #type in food
         pag.press('enter')
-        time.sleep(5)
-        pag.hotkey("ctrl", "shift", "i") #Open inspect
         time.sleep(4)
-        pag.moveTo(1391, 214)
+        pag.moveTo(1156, 250)
         time.sleep(0.5)
         pag.click()
         time.sleep(0.1)
         pag.hotkey("ctrl", "c")
         time.sleep(1)
-        pag.hotkey("ctrl", "shift", "i") #Close inspect
-        time.sleep(1)
         html = pyperclip.paste()
         soup = BeautifulSoup(html, "html.parser") #Pass into BeautifulSoup
-        product_titles = soup.find_all("div", {"ckass": "styles_ndsTruncate__0rtO0"})
+        product_titles = soup.find_all("div", {"class": "styles_ndsTruncate__0rtO0"})
         temp_prices = []
         prices_elements = soup.find_all("span", {"data-test": "current-price"})
-        print("Found", len(prices_elements), "price containers")
+        print("Found", len(prices_elements), "price containers and", len(product_titles), "product titles")
+        if product_titles:
+            first_title = product_titles[0].get_text(strip=True).lower()
+            if "knoxville" in first_title:
+                product_titles = product_titles[1:]
         for element in prices_elements:
             try:
                 price = element.get_text(strip=True)
@@ -71,7 +76,6 @@ def target(foods, products, prices, ounces, sources, prices_per_ounce, categorie
 
         counter = 0
         for product, price in zip(product_titles, temp_prices):
-            print(product.get_text(strip=True), ": ", price)
             products.append(product.get_text(strip=True))
             prices.append(price)
             ounces.append(find_ounces(product.get_text(strip=True)))

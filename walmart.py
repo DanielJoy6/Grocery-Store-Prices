@@ -15,9 +15,15 @@ def find_ounces(product_title):
         else: #if just in oz
             total = temparray[temparray.index("oz")-1]
     elif "lb" in temparray:
-        total = 16*int(temparray[temparray.index("lb")-1])
+        try:
+            total = 16*int(temparray[temparray.index("lb")-1])
+        except ValueError:
+            total = 16*float(temparray[temparray.index("lb")-1])
     elif "gl" in temparray:
-        total = 128*int(temparray[temparray.index("lb")-1])
+        try:
+            total = 128*int(temparray[temparray.index("lb")-1])
+        except ValueError:
+            total = 128*float(temparray[temparray.index("lb")-1])
     else:
         for item in temparray:
             if "lb" in item:

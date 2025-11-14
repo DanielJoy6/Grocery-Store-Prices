@@ -34,12 +34,43 @@ prices_per_ounce = []
 categories = []
 
 time.sleep(2)
+'''
 food_city(foods, products, prices, ounces, sources, prices_per_ounce, categories)
 time.sleep(1)
+df = pd.DataFrame({ #Put into dataframe for saving as csv file
+    'Product': products,
+    'Price': prices,
+    'Ounces': ounces,
+    'Source': sources,
+    'Price per ounce': prices_per_ounce,
+    'Categories': categories
+})
+df.to_csv('grocery store1.csv', index = False)
+'''
 target(foods, products, prices, ounces, sources, prices_per_ounce, categories)
 time.sleep(1)
+df = pd.DataFrame({ #Put into dataframe for saving as csv file
+    'Product': products,
+    'Price': prices,
+    'Ounces': ounces,
+    'Source': sources,
+    'Price per ounce': prices_per_ounce,
+    'Categories': categories
+})
+df.to_csv('grocery store2.csv', index = False)
+
 kroger(foods, products, prices, ounces, sources, prices_per_ounce, categories)
 time.sleep(1)
+df = pd.DataFrame({ #Put into dataframe for saving as csv file
+    'Product': products,
+    'Price': prices,
+    'Ounces': ounces,
+    'Source': sources,
+    'Price per ounce': prices_per_ounce,
+    'Categories': categories
+})
+df.to_csv('grocery store3.csv', index = False)
+
 walmart(foods, products, prices, ounces, sources, prices_per_ounce, categories)
 
 print("products:", len(products))
