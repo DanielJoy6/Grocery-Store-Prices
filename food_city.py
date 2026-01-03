@@ -31,7 +31,7 @@ def food_city(foods, products, prices, ounces, sources, prices_per_ounce, catego
     pag.hotkey("ctrl", "shift", "i") #Open inspect
     time.sleep(1)
     for food in foods:
-        pag.moveTo(240, 291) #Search bar
+        pag.moveTo(668, 253) #Search bar
         time.sleep(0.5)
         pag.click()
         time.sleep(0.5)
@@ -41,12 +41,14 @@ def food_city(foods, products, prices, ounces, sources, prices_per_ounce, catego
         time.sleep(0.1)
         pag.write(food, interval=0.1) #type in food
         pag.press('enter')
-        time.sleep(3)
-        pag.moveTo(1238, 483)
+        time.sleep(6)
+        pag.moveTo(108, 978) #Console bar
         time.sleep(0.5)
         pag.click()
         time.sleep(0.1)
-        pag.hotkey("ctrl", "c")
+        pag.write("copy(document.body.innerHTML)")
+        time.sleep(0.5)
+        pag.press("enter")
         time.sleep(1)
         html = pyperclip.paste()
         soup = BeautifulSoup(html, "html.parser")
@@ -54,7 +56,7 @@ def food_city(foods, products, prices, ounces, sources, prices_per_ounce, catego
         product_titles2 = soup.find_all("span", {"class": "line-clamp--2"})
         temp_ounces = soup.find_all("span", {"class": "clearfix tile-item__product__size"})
         temp_prices = soup.find_all("span", {"class": "clearfix tile-item__product__price deal__"})
-        print("Found", len(product_titles1), len(product_titles2), "titles,",
+        print("Found", len(product_titles2), "titles,",
               len(temp_ounces), "ounces, and", len(temp_prices), "prices")
         counter = 0
         for p1, p2, ounce_element, price_element in zip(product_titles1, product_titles2, temp_ounces, temp_prices):
@@ -73,14 +75,17 @@ def food_city(foods, products, prices, ounces, sources, prices_per_ounce, catego
                 print("Error fetching price")
                 price = 0.0
             try:
-                price_per_ounce = price/ounce
-            except TypeError:
+                price_per_ounce = float(price) / float(ounce)
+            except:
                 price_per_ounce = 0
             try:
                 prices.append(float(price))
             except ValueError:
                 prices.append(price)
-            ounces.append(ounce)
+            try:
+                ounces.append(float(ounce))
+            except ValueError:
+                ounces.append(ounce)
             prices_per_ounce.append(price_per_ounce)
             categories.append(foods.index(food))
             sources.append("Food City")

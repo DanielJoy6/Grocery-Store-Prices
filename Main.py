@@ -115,7 +115,7 @@ prices_per_ounce = []
 categories = []
 
 time.sleep(2)
-"""
+
 food_city(foods, products, prices, ounces, sources, prices_per_ounce, categories)
 time.sleep(1)
 df = pd.DataFrame({ #Put into dataframe for saving as csv file
@@ -126,8 +126,20 @@ df = pd.DataFrame({ #Put into dataframe for saving as csv file
     'Price per ounce': prices_per_ounce,
     'Categories': categories
 })
-df.to_csv('grocery store1.csv', index = False)
+print("products:", len(products))
+print("prices:", len(prices))
+print("ounces:", len(ounces))
+print("sources:", len(sources))
+print("prices per ounces:", len(prices_per_ounce))
+print("categories:", len(categories))
+print(products)
+print(prices)
+print(ounces)
+print(prices_per_ounce)
+print(categories)
 
+df.to_csv('Food City Results.csv', index = False)
+"""
 target(foods, products, prices, ounces, sources, prices_per_ounce, categories)
 time.sleep(1)
 df = pd.DataFrame({ #Put into dataframe for saving as csv file
@@ -139,7 +151,7 @@ df = pd.DataFrame({ #Put into dataframe for saving as csv file
     'Categories': categories
 })
 df.to_csv('grocery store2.csv', index = False)
-"""
+
 
 kroger(foods, products, prices, ounces, sources, prices_per_ounce, categories)
 print("products:", len(products))
@@ -158,7 +170,7 @@ df = pd.DataFrame({ #Put into dataframe for saving as csv file
     'Categories': categories
 })
 df.to_csv('Kroger Results.csv', index = False)
-"""
+
 walmart(foods, products, prices, ounces, sources, prices_per_ounce, categories)
 
 print("products:", len(products))
