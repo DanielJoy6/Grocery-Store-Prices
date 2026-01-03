@@ -14,11 +14,19 @@ def find_ounces(product_title):
             total = temparray[temparray.index("fl")-1]
         else: #if just in oz
             total = temparray[temparray.index("oz")-1]
+    elif "oz," in temparray:
+        if temparray[temparray.index("oz,")-1] == "fl": #If in fl oz
+            total = temparray[temparray.index("fl")-1]
+        else: #if just in oz
+            total = temparray[temparray.index("oz,")-1]
     elif "lb" in temparray:
         try:
             total = 16*int(temparray[temparray.index("lb")-1])
         except ValueError:
-            total = 16*float(temparray[temparray.index("lb")-1])
+            try:
+                total = 16*float(temparray[temparray.index("lb")-1])
+            except ValueError:
+                total = 0
     elif "gl" in temparray:
         try:
             total = 128*int(temparray[temparray.index("lb")-1])
@@ -50,9 +58,9 @@ def walmart(foods, products, prices, ounces, sources, prices_per_ounce, categori
         time.sleep(0.5)
         pag.write(food, interval=0.1) #type in food
         pag.press('enter')
-        time.sleep(5)
+        time.sleep(4)
         pag.hotkey("ctrl", "r") #Refresh since it messes up sometimes
-        time.sleep(5)
+        time.sleep(4)
         pag.hotkey("ctrl", "u") #Open source code
         time.sleep(4)
         pag.hotkey("ctrl", "a")
@@ -90,6 +98,6 @@ def walmart(foods, products, prices, ounces, sources, prices_per_ounce, categori
             sources.append("Walmart")
             counter += 1
             if counter > 5:
-                break #
+                break
         pag.hotkey("ctrl", "w")
         time.sleep(0.2)

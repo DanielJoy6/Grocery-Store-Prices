@@ -15,9 +15,21 @@ def find_ounces(product_title):
         else: #if just in oz
             total = temparray[temparray.index("oz")-1]
     elif "lb" in temparray:
-        total = 16*int(temparray[temparray.index("lb")-1])
+        try:
+            total = 16*int(temparray[temparray.index("lb")-1])
+        except ValueError:
+            try:
+                total = 16*float(temparray[temparray.index("lb")-1])
+            except ValueError:
+                total = 0
     elif "gl" in temparray:
-        total = 128*int(temparray[temparray.index("lb")-1])
+        try:
+            total = 128*int(temparray[temparray.index("lb")-1])
+        except ValueError:
+            try:
+                total = 128*float(temparray[temparray.index("lb")-1])
+            except ValueError:
+                total = 0
     else:
         for item in temparray:
             if "lb" in item:
@@ -36,10 +48,10 @@ def target(foods, products, prices, ounces, sources, prices_per_ounce, categorie
     time.sleep(4)
     print("Switching to Target.. 5 seconds")
     pag.hotkey("ctrl", "shift", "i") #Open inspect
-    time.sleep(4)
+    time.sleep(3)
     for food in foods:
         pag.moveTo(384, 302) #Search bar
-        time.sleep(0.5)
+        time.sleep(0.3)
         pag.click()
         time.sleep(0.5)
         pag.hotkey("ctrl", "a")
@@ -48,13 +60,13 @@ def target(foods, products, prices, ounces, sources, prices_per_ounce, categorie
         time.sleep(0.1)
         pag.write(food, interval=0.1) #type in food
         pag.press('enter')
-        time.sleep(4)
+        time.sleep(3.5)
         pag.moveTo(1156, 250)
         time.sleep(0.5)
         pag.click()
         time.sleep(0.1)
         pag.hotkey("ctrl", "c")
-        time.sleep(1)
+        time.sleep(0.5)
         html = pyperclip.paste()
         soup = BeautifulSoup(html, "html.parser") #Pass into BeautifulSoup
         product_titles = soup.find_all("div", {"class": "styles_ndsTruncate__0rtO0"})
@@ -85,5 +97,4 @@ def target(foods, products, prices, ounces, sources, prices_per_ounce, categorie
             counter += 1
             if counter > 5:
                 break #
-        #pag.hotkey("ctrl", "w")
-        #time.sleep(0.2)
+    pag.hotkey("ctrl", "shift", "i") #Close inspect

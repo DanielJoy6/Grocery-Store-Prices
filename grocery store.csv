@@ -1,457 +1,516 @@
-Product,Price,Ounces,Source,Price per ounce,Categories,First unique?
-Fyffes Bagged Green Bananas,1.99,128,Food City,0.015546875,0,
-Fresh Bananas,0.58,16,Food City,0.03625,0,
-"Great Value Long Grain Enriched Rice, 5 lbs",3.34,80,Walmart,0.04175,10,1
-"Gold Medal All Purpose Flour, Baking Flour, 10 lb Bag",7.47,160,Walmart,0.0466875,19,1
-"Great Value Pure Granulated Sugar, 4 lb",3.07,64,Walmart,0.04796875,11,1
-Fresh Organic Bananas,0.79,16,Food City,0.049375,0,
-"Gold Medal All Purpose Flour, Baking Flour, 5 lb Bag",3.97,80,Walmart,0.049625,19,2
-"Gold Medal Unbleached All Purpose Flour, Baking Flour, 5 lb Bag",3.97,80,Walmart,0.049625,19,3
-Smart Way™ Granulated Sugar,3.49,69.8,Kroger,0.05,11,2
-"Great Value Baking Soda, 4 lb",3.24,64,Walmart,0.050625,7,1
-"Great Value Natural Brown Long Grain Rice, 32 oz",1.64,32,Walmart,0.05125,10,2
-"Great Value Pure Granulated Sugar, 10 lb",8.46,160,Walmart,0.052875,11,3
-"Great Value Long Grain Enriched Rice, 32 oz",1.77,32,Walmart,0.0553125,10,3
-"NOW Foods Organic Cane Sugar, 2.5 lbs (1,134 g)",2.22,40,Walmart,0.0555,11,4
-Great Value 75 sq ft Aluminum Foil,4.28,75,Walmart,0.057066667,18,1
-"Great Value Baking Soda, 1 lb",0.92,16,Walmart,0.0575,7,2
-"Great Value Long Grain Enriched Rice, 16 oz",0.92,16,Walmart,0.0575,10,4
-"Great Value Dark Red Kidney Beans, 15.5 oz",0.92,15.5,Walmart,0.059354839,12,2
-"Great Value Light Red Kidney Beans, 15.5 oz",0.92,15.5,Walmart,0.059354839,12,3
-"Great Value Dark Red Kidney Beans, No Salt Added, 15.5 oz",0.92,15.5,Walmart,0.059354839,12,4
-"Great Value Great Northern Beans, 15.5 oz",0.92,15.5,Walmart,0.059354839,13,1
-"(12 pack) Great Value Dark Red Kidney Beans, 15.5 oz",11.04,186,Walmart,0.059354839,12,1
-Kroger® Pure Baking Soda,0.99,16.5,Kroger,0.06,7,3
-Kroger® Dark Red Kidney Beans,1,16.66666667,Kroger,0.06,12,5
-Kroger® Great Northern Beans,1,16.66666667,Kroger,0.06,13,2
-Welch's® Natural Concord Grape Spread,3.99,66.5,Kroger,0.06,17,1
-Silk Dairy Free Vanilla Soy Milk Half Gallon,4.49,74.83333333,Kroger,0.06,8,1
-Prego® Traditional Lower Sodium Pasta Sauce,2.79,45,Kroger,0.062,0,1
-"Silk Dairy Free, Gluten Free, Original Soy Milk, 64 fl oz Half Gallon",3.97,64,Walmart,0.06203125,8,2
-"Silk Dairy Free, Gluten Free, Unsweet Organic Soy Milk, 64 fl oz Half Gallon",3.97,64,Walmart,0.06203125,8,3
-Kroger® No Salt Added Dark Red Kidney Beans,1,16,Kroger,0.0625,12,6
-Kroger® Pure Baking Soda,0.99,15.5,Kroger,0.063870968,7,4
-"Great Value Aluminum Foil, 25 sq ft",1.62,25,Walmart,0.0648,18,2
-"Reynolds Wrap Everyday Strength Aluminum Foil, 75 square feet",4.87,75,Walmart,0.064933333,18,3
-Kroger® Heavy Duty Aluminum Foil,4.99,75,Kroger,0.066533333,18,4
-Kroger® Heavy Duty Aluminum Foil,4.99,75,Kroger,0.066533333,19,4
-Gold Medal Premium Quality Bread Flour for Baking 5 lb,5.38,80,Walmart,0.06725,19,5
-"Great Value Confectioners Powdered Sugar, 32 oz",2.22,32,Walmart,0.069375,2,1
-"Great Value Light Brown Sugar, 32 oz",2.22,32,Walmart,0.069375,4,1
-"(4 pack) Great Value Light Brown Sugar, 32 oz",8.88,128,Walmart,0.069375,4,2
-Reynolds Wrap® Aluminum Foil,4.99,71.28571429,Kroger,0.07,18,5
-Reynolds Wrap® Aluminum Foil,4.99,71.28571429,Kroger,0.07,19,6
-Smart Way™ Granulated Sugar,7.69,109.8571429,Kroger,0.07,11,5
-Silk Dairy Free Organic Unsweetened Plain Soy Milk Half Gallon,4.49,64,Kroger,0.07015625,8,4
-Silk Dairy Free Protein Original Soy Milk Half Gallon,4.49,64,Kroger,0.07015625,8,5
-"Great Value Great Northern Beans, 32 oz",2.26,32,Walmart,0.070625,13,3
-"ARM & HAMMER Pure Baking Soda, For Baking, Cleaning & Deodorizing, 3 lb Resealable Bag",3.42,48,Walmart,0.07125,7,5
-"Great Value Light Red Kidney Beans, 1 lb",1.22,16,Walmart,0.07625,12,7
-"Great Value Canola Oil, 1 gal",9.98,128,Walmart,0.07796875,3,1
-Kroger® Pure Canola Oil,3.79,48,Kroger,0.078958333,3,2
-"Bush's Dark Red Kidney Beans, Canned Beans, 16 oz",1.28,16,Walmart,0.08,12,8
-Simple Truth Organic® Cane Sugar,2.99,37.375,Kroger,0.08,4,3
-Domino Premium Cane Powdered Sugar,3.99,49.875,Kroger,0.08,2,2
-Kroger® Aluminum Foil,3.99,49.875,Kroger,0.08,18,6
-Kroger® Aluminum Foil,3.99,49.875,Kroger,0.08,19,7
-"Prego Traditional Pasta Sauce, 67 oz Jar",5.36,67,Walmart,0.08,0,2
-Luck's® Great Northern Beans Seasoned with Pork,1.29,16,Kroger,0.080625,13,4
-Simple Truth Organic® Dark Red Kidney Beans,1.25,15.5,Kroger,0.080645161,12,9
-"Bush's Great Northern Beans, Canned Beans, 15.8 oz",1.28,15.8,Walmart,0.081012658,13,5
-"(8 pack) Bush's Great Northern Beans, Canned Beans, 15.8 oz",10.24,126.4,Walmart,0.081012658,13,6
-"(Pack of 6) Silk Organic Shelf-Stable Unsweetened Soy Milk, 1 Quart",15.79,192,Walmart,0.082239583,8,6
-"(Pack of 6) Silk Shelf-Stable Original Soy Milk, 1 Quart",15.79,192,Walmart,0.082239583,8,7
-Luck's Great Northern Beans Seasoned with Pork 15 oz Can,1.24,15,Walmart,0.082666667,13,7
-"Great Value Heavy Duty Aluminum Foil, 50 Sq ft",4.28,50,Walmart,0.0856,18,7
-"Great Value Canola Oil, 48 fl oz",4.12,48,Walmart,0.085833333,3,3
-"Birds Eye Sweet Corn, Frozen Vegetables, 80 oz. Bag",6.92,80,Walmart,0.0865,14,1
-"Birds Eye Mixed Vegetables, Corn, Carrots, Green Beans & Peas, Frozen Vegetables, 80 oz. Bag",6.92,80,Walmart,0.0865,15,1
-"Domino Confectioners Sugar, Pure Cane, 10x Powdered, Allergen-Free, 4 lb (1.81 kg), Plastic Bag",5.54,64,Walmart,0.0865625,2,3
-Kroger® Great Northern Beans,2.19,24.33333333,Kroger,0.09,13,8
-Kroger® 100% Pure Canola Oil,4.49,49.88888889,Kroger,0.09,3,4
-Zulka® Morena® Pure Cane Sugar,4.99,55.44444444,Kroger,0.09,11,6
-"ARM & HAMMER Pure Baking Soda, For Baking, Cleaning & Deodorizing, 1 lb Box",1.47,16,Walmart,0.091875,7,6
-"Gold Medal All Purpose Flour, Baking Flour, 2 lb Bag",2.98,32,Walmart,0.093125,19,8
-"(3 pack) Carolina Organic Brown Long Grain Rice, Gluten Free, 2 lb Bag",8.94,96,Walmart,0.093125,10,5
-"Prego Traditional Pasta Sauce, 45 oz Jar",4.23,45,Walmart,0.094,0,3
-Goya® Red Kidney Beans,1.5,15.5,Kroger,0.096774194,12,10
-Bush's Great Northern Beans 15.8 oz,1.5,15.5,Kroger,0.096774194,13,9
-"Reynolds Wrap Heavy Duty Aluminum Foil, 12 Inch Wide, 50 Sq. Ft.",4.87,50,Walmart,0.0974,18,8
-Gold Medal 16000-56573 Superlative Flour Bleached/Bromated/Enriched/Malted 50#,79,800,Walmart,0.09875,19,9
-Reynolds Wrap® Non-Stick Aluminum Foil,4.99,50,Kroger,0.0998,18,9
-Reynolds Wrap® Non-Stick Aluminum Foil,4.99,50,Kroger,0.0998,18,10
-"(2 pack) Wesson Pure & Cholesterol Free Canola Oil, 128 fl oz",25.56,256,Walmart,0.09984375,3,5
-Goya® Red Kidney Beans,2.49,24.9,Kroger,0.1,12,11
-"Mahatma Jasmine Thai Fragrant Long Grain Rice, Gluten Free, 32 oz (2 lbs) (907 Grams)",3.22,32,Walmart,0.100625,10,6
-"Prego Traditional Pasta Sauce, 24 oz Jar",2.48,24,Walmart,0.103333333,0,4
-"Prego Italian Tomato Pasta Sauce with Roasted Garlic & Herbs, 24 oz Jar",2.48,24,Walmart,0.103333333,0,5
-"Prego Italian Tomato Pasta Sauce Flavored with Meat, 24 oz Jar",2.48,24,Walmart,0.103333333,0,6
-"Great Value Sugar Cannister, 20 oz",2.12,20,Walmart,0.106,11,7
-"ARM & HAMMER Pure Baking Soda, For Baking, Cleaning & Deodorizing, 8 oz Box",0.87,8,Walmart,0.10875,7,7
-Prego® Marinara Sauce,2.79,25.36363636,Kroger,0.11,0,7
-Betty Crocker Bisquick Original Pancake and Baking Mix,5.99,54.45454545,Kroger,0.11,7,8
-"Domino Confectioners Sugar, Pure Cane 10-x Powdered, 2lb (907g), Plastic Bag",3.57,32,Walmart,0.1115625,2,4
-ARM & HAMMER Pure Baking Soda,1.79,16,Kroger,0.111875,7,9
-"Crisco Pure Canola Oil, 40 fl oz",4.57,40,Walmart,0.11425,3,6
-Domino Premium Pure Cane Dark Brown Sugar 2 lb,3.67,32,Walmart,0.1146875,4,4
-Domino Premium Pure Cane Dark Brown Sugar 2lb. Zipper-pak,3.67,32,Walmart,0.1146875,4,5
-Domino Premium Pure Cane Light Brown Sugar 2 lb. Zipper-Pak,3.67,32,Walmart,0.1146875,4,6
-(3 pack) Domino Premium Pure Cane Dark Brown Sugar 2 lb,11.01,96,Walmart,0.1146875,4,7
-"(6 pack) C&H Premium Cane Powdered Sugar, 2 lb",22.02,192,Walmart,0.1146875,2,5
-"Great Value Great Northern Beans, 1 lb",1.87,16,Walmart,0.116875,13,10
-"Pinnacle Foods Birds Eye Steamfresh Corn, 10.8 oz",1.27,10.8,Walmart,0.117592593,14,2
-Kroger® Dark Brown Sugar,2.59,21.58333333,Kroger,0.12,4,8
-Prego® Traditional Pasta Sauce,2.79,23.25,Kroger,0.12,0,8
-Prego® Homestyle Alfredo Pasta Sauce,2.79,23.25,Kroger,0.12,0,9
-"Wesson Pure & Cholesterol Free Canola Oil, 24 fl oz",2.88,24,Walmart,0.12,3,7
-Cobram Estate Everyday Essentials Classic,16.99,141.5833333,Kroger,0.12,3,8
-Otto's Gluten Free Cassava Flour,20.49,170.75,Kroger,0.12,2,6
-"Birds Eye Steamfresh Super Sweet Corn, Frozen Vegetables, 10 oz. Bag",1.27,10,Walmart,0.127,14,3
-"Birds Eye Steamfresh Sweet Peas, Frozen Vegetables, 10 oz. Bag",1.27,10,Walmart,0.127,15,2
-Birds Eye Steamfresh Sweet Peas,1.27,10,Walmart,0.127,15,3
-Simple Truth Organic® Light Brown Sugar,3,23.07692308,Kroger,0.13,4,9
-Birds Eye Steamfresh Super Sweet Corn Frozen Vegetables,1.49,10.8,Kroger,0.137962963,15,4
-"Great Value Light Brown Sugar, 32 oz",4.46,32,Walmart,0.139375,11,8
-Simple Truth Organic® Canned Great Northern Beans,1.25,8.928571429,Kroger,0.14,13,11
-Welch's® Natural Concord Grape Squeeze Spread,3.89,27,Kroger,0.144074074,17,2
-"Welch's Natural Strawberry Spread, 27 oz Jar",3.98,27,Walmart,0.147407407,17,3
-Welch's® Zero Sugar Strawberry Juice Drink,3.99,27,Kroger,0.147777778,17,4
-Birds Eye Steamfresh Sweet Peas Frozen Vegetables,1.49,10,Kroger,0.149,14,4
-Birds Eye Steamfresh Mixed Vegetables Frozen Vegetables,1.49,10,Kroger,0.149,14,5
-Birds Eye Steamfresh Mixed Vegetables Frozen Vegetables,1.49,10,Kroger,0.149,15,5
-Birds Eye Steamfresh Cut Green Beans Frozen Vegetables,1.49,10,Kroger,0.149,15,6
-"Powdered Sugar, 32 oz- Pack of 5",23.97,160,Walmart,0.1498125,2,7
-Birds Eye Steamfresh Super Sweet Corn Frozen Vegetables,1.49,9.933333333,Kroger,0.15,14,6
-Birds Eye Steamfresh Sweet Peas Frozen Vegetables,1.49,9.933333333,Kroger,0.15,15,7
-Birds Eye Steamfresh Whole Green Beans Frozen Vegetables,2,13.33333333,Kroger,0.15,14,7
-Birds Eye Steamfresh Whole Green Beans Frozen Vegetables,2,13.33333333,Kroger,0.15,15,8
-Smucker's Squeeze Strawberry Fruit Spread,4.49,29.93333333,Kroger,0.15,17,5
-"(Pack of 6) Silk Shelf-Stable Vanilla Soy Milk, 1 Quart",29.88,192,Walmart,0.155625,8,8
-Smucker's Grape Jelly,3.19,20,Food City,0.1595,1,
-Simple Truth Organic® Low Sodium Dark Red Kidney Beans BIG DEAL!,4.79,29.9375,Kroger,0.16,12,12
-Florida Crystals Regenerative Organic Raw Cane Sugar,4.99,31.1875,Kroger,0.16,2,8
-Pinnacle Foods Birds Eye Steamfresh Premium Selects Corn 12 oz,1.97,12,Walmart,0.164166667,14,8
-Food Club Strawberry Jelly,2.99,18,Food City,0.166111111,1,
-Domino Premium Pure Cane Light Brown Sugar Zipper-Pack,3.99,24,Kroger,0.16625,4,10
-"Welch's Strawberry Spread, 20 oz Squeeze Bottle",3.47,20,Walmart,0.1735,17,6
-Welch's® Natural Strawberry Spread,4.99,27.72222222,Kroger,0.18,17,7
-"Birds Eye Steamfresh Broccoli, Carrots, Sugar Snap Peas, Water Chestnuts, Frozen Vegetables, 10.8 oz",1.97,10.8,Walmart,0.182407407,15,9
-"Crisco Pure Canola Oil, Gluten-Free",4.79,25.4,Kroger,0.188582677,3,9
-Birds Eye Steamfresh Cut Green Beans Frozen Vegetables,1.49,7.842105263,Kroger,0.19,14,9
-Birds Eye Baby Sweet Peas Frozen Vegetables,2,10.52631579,Kroger,0.19,15,10
-"Welch's Natural Strawberry Spread, 17 oz Jar",3.27,17,Walmart,0.192352941,17,8
-"Birds Eye Steamfresh Gold and White Corn, Frozen Vegetables, 10.8 oz. Bag",1.97,10,Walmart,0.197,14,10
-"Welch's Natural Strawberry Spread, 18 oz Squeeze Bottle",3.57,18,Walmart,0.198333333,17,9
-Prego® Traditional Pasta Sauce,4.79,24,Kroger,0.199583333,0,10
-Reynolds Wrap® Heavy Duty Aluminum Foil,4.99,25,Kroger,0.1996,18,11
-Reynolds Wrap® Heavy Duty Aluminum Foil,4.99,25,Kroger,0.1996,18,12
-"Molina Mexican Vanilla Blend, 8.3 FL OZ",1.68,8.3,Walmart,0.202409639,1,1
-Moon Pie Mini Banana,1.29,6,Food City,0.215,0,
-Smucker's Strawberry Peanut Butter & Strawberry Jelly Stripes,3.99,18,Food City,0.221666667,1,
-"Clabber Girl, Gluten-Free, Double Acting Baking Powder, 22 oz",4.97,22,Walmart,0.225909091,6,1
-"Great Value Buttery Smooth Club Crackers, 13.7 oz",3.22,13.7,Walmart,0.235036496,20,1
-"OREO Double Stuf Chocolate Sandwich Cookies, Party Size, 24.95 oz",5.98,24.95,Walmart,0.239679359,16,1
-"Baker's Kosher Imitation Vanilla Flavor, 8 fl oz Bottle",1.92,8,Walmart,0.24,1,2
-OREO Double Stuf Chocolate Sandwich Cookies Family Size,4.49,18.70833333,Kroger,0.24,16,2
-"Great Value Double Acting Baking Powder, 8.1 oz",1.98,8.1,Walmart,0.244444444,6,2
-Smucker's Strawberry Jelly,4.49,18,Food City,0.249444444,1,
-OREO Chocolate Creme Chocolate Sandwich Cookies Family Size,4.49,17.6,Kroger,0.255113636,16,3
-OREO Double Stuf Golden Sandwich Cookies Party Size,6.79,26.11538462,Kroger,0.26,16,4
-"OREO Double Stuf Chocolate Sandwich Cookies, Family Size, 18.71 oz",4.97,18.71,Walmart,0.265633351,16,5
-"(3 pack) OREO Double Stuf Chocolate Sandwich Cookies, Family Size, 18.71 oz",14.91,56.13,Walmart,0.265633351,16,6
-"OREO Double Stuf Chocolate Sandwich Cookies, 14.03 oz",3.96,14.03,Walmart,0.282252316,16,7
-"Club Original Crackers, Lunch Snacks, 13.7 oz",3.97,13.7,Walmart,0.289781022,20,2
-Rumford Baking Powder - Gluten Free,3.79,13.06896552,Kroger,0.29,6,3
-Club® Original Crackers,3.99,13.75862069,Kroger,0.29,20,3
-Club® Minis Original Crackers,3.99,13.75862069,Kroger,0.29,20,4
-Club® Reduced Fat Crackers,3.99,13.7,Kroger,0.291240876,20,5
-Club® Multigrain Crackers,3.99,13.7,Kroger,0.291240876,20,6
-Hostess Banana Twinkies,3.99,13.58,Food City,0.293814433,0,
-Prego® Traditional Pasta Sauce Value Size,6.79,23,Kroger,0.295217391,0,11
-"Club Snack Stacks Original Crackers, Lunch Snacks, 9 Count",5.47,18,Walmart,0.303888889,20,7
-"Clabber Girl, Gluten-Free, Double Acting Baking Powder, 8.1 oz",2.47,8.1,Walmart,0.304938272,6,4
-"Royal Baking Powder Double Acting, 8.1 oz",2.48,8.1,Walmart,0.30617284,6,5
-"(3 pack) Royal Baking Powder Double Acting, 8.1 oz",7.44,24.3,Walmart,0.30617284,6,6
-"Silk Dairy Free, Vanilla Plant Based, Soy Milk Yogurt Alternative Container, 5.3 oz",1.66,5.3,Walmart,0.313207547,9,1
-"Silk Dairy Free, Peach Mango Plant Based, Soy Milk Yogurt Alternative Container, 5.3 oz",1.66,5.3,Walmart,0.313207547,9,2
-"Silk Dairy Free, Strawberry Plant Based, Soy Milk Yogurt Alternative Container, 5.3 oz",1.66,5.3,Walmart,0.313207547,9,3
-"Silk Dairy Free, Blueberry Plant Based, Soy Milk Yogurt Alternative Container, 5.3 oz",1.66,5.3,Walmart,0.313207547,9,4
-"Great Value Canola Oil Cooking Spray, 8 oz",2.52,8,Walmart,0.315,3,10
-Randall® Fully Cooked Deluxe Great Northern Beans Jar,4.99,15.8,Kroger,0.315822785,13,12
-"Club Snack Stacks Original Crackers, Lunch Snacks, 6 Count",3.97,12.5,Walmart,0.3176,20,8
-Club® Stacks Original Crackers,3.99,12.46875,Kroger,0.32,20,9
-OREO Mega Stuf Chocolate Sandwich Cookies Family Size,4.49,14.03125,Kroger,0.32,16,8
-OREO Double Stuf Chocolate Sandwich Cookies,4.49,14.03,Kroger,0.32002851,16,9
-Bob's Red Mill Decadent Chocolate Cake Mix,4.49,13.60606061,Kroger,0.33,6,7
-Kroger® Baking Powder,2.69,8.1,Kroger,0.332098765,6,8
-Silk Strawberry Soy Milk Yogurt Alternative Cup,1.79,5.3,Kroger,0.337735849,9,5
-Silk Vanilla Almond Milk Yogurt Alternative Cup,1.79,5.3,Kroger,0.337735849,9,6
-Silk Blueberry Soy Milk Yogurt Alternative Cup,1.79,5.264705882,Kroger,0.34,9,7
-Silk Vanilla Soy Milk Yogurt Alternative Cup,1.79,5.264705882,Kroger,0.34,9,8
-Silk Vanilla Soy Milk Yogurt Alternative Tub,5.79,17.02941176,Kroger,0.34,9,9
-Kroger® 100% Pure Canola Oil,10.99,32,Kroger,0.3434375,3,11
-"Domino Premium Pure Cane Granulated Sugar, 4 lb",22.81,64,Walmart,0.35640625,11,9
-"Club Minis Original Crackers, Lunch Snacks, 11 oz",3.97,11,Walmart,0.360909091,20,10
-Fresh Strawberry Yogurt Parfait,3.99,10.8,Food City,0.369444444,2,
-"Clabber Girl Baking Powder, Gluten-Free",2.99,8.081081081,Kroger,0.37,6,9
-Driscoll's Organic Strawberries,5.99,16,Food City,0.374375,2,
-Basket & Bushel Fresh Strawberries,5.99,16,Food City,0.374375,2,
-Unpretentious Powdered Sugar 2.5 Pound,14.99,40,Walmart,0.37475,2,9
-"(3 pack) Rumford, Non-GMO, Gluten-Free, Double Acting Baking Powder, 8.1 oz",9.36,24.3,Walmart,0.385185185,6,10
-"OREO Double Stuf Golden Sandwich Cookies, Party Size, 24.95 oz",9.8,24.95,Walmart,0.392785571,16,10
-"Welch's, Natural Strawberry Spread, 27oz Jar (Pack of 2)",21.99,54,Walmart,0.407222222,17,10
-Silk Greek Style Strawberry Coconut Milk Yogurt Alternative Cup,2.19,5.3,Kroger,0.413207547,9,10
-Birds Eye Fire Roasted Corn Frozen Vegetables,4.99,10.8,Kroger,0.462037037,14,11
-OREO Mega Stuf Chocolate Sandwich Cookies Party Size,6.79,14.03,Kroger,0.483962937,16,11
-Kroger® Clear Imitation Vanilla Extract,1.99,4,Kroger,0.4975,1,3
-Prego Traditional Pasta Sauce,11.99,24,Walmart,0.499583333,0,12
-Jelly Belly Sours,4.99,9.8,Food City,0.509183673,1,
-Arm & Hammer Pure Baking Soda Shaker 12 Oz (Pack of 3),18.82,36,Walmart,0.522777778,7,10
-"Great Value Kosher Ground Cinnamon, 2.5 oz",1.32,2.5,Walmart,0.528,5,1
-"OREO Double Stuf Chocolate Sandwich Cookies, 14.03 oz (Pack of 6)",45.65,84,Walmart,0.543452381,16,12
-Bob's Red Mill Classic Yellow Cake Mix,4.49,8.1,Kroger,0.554320988,6,11
-Jelly Belly Sizzling Cinnamon Jelly Beans,2,3.5,Food City,0.571428571,1,
-Domino Premium Pure Cane Granulated Sugar,5.99,10,Kroger,0.599,11,10
-Kroger® Ground Cinnamon Shaker,3.99,6.5,Kroger,0.613846154,5,2
-Rodelle Vanilla Paste,9.99,16,Kroger,0.624375,7,11
-Smart Way™ Ground Cinnamon,1.25,1.953125,Kroger,0.64,5,3
-Club® Sweet Hawaiian Snack Crackers,3.99,6,Kroger,0.665,20,11
-Terra Delyssa® Organic First Cold Press Smooth Flavor Extra Virgin Olive Oil,10.49,15.65671642,Kroger,0.67,3,12
-Welch's Natural Strawberry Spread - 19.8oz,13.98,19.8,Walmart,0.706060606,17,11
-Imperial Pure Granulated Cane Sugar,2.99,4,Kroger,0.7475,11,11
-Concord Foods Smoothie Banana,1.5,2,Food City,0.75,0,
-Private Selection® Ground Cinnamon Shaker,3.49,4.532467532,Kroger,0.77,5,4
-Rodelle Pure Vanilla Extract,22.99,24.98913043,Kroger,0.92,1,4
-Fresh Chocolate Dipped Strawberries,14.99,16,Food City,0.936875,2,
-"Great Value Ground Cinnamon, 4.2 oz",4.22,4.2,Walmart,1.004761905,5,5
-McCormick Pure Vanilla Extract,8.99,8,Kroger,1.12375,1,5
-"McCormick Kosher Ground Cinnamon, 2.37 oz Bottle",2.77,2.37,Walmart,1.168776371,5,6
-Silk Cultured Soy Peach And Mango Yogurt Alternative 5.3oz (PACK OF 8),50.25,42.4,Walmart,1.185141509,9,11
-Silk Cultured Soy Vanilla Dairy Free Yogurt Alternative 5.3oz (PACK OF 8),50.71,42.4,Walmart,1.195990566,9,12
-Kroger® Pure Cane Granulated Sugar,4.79,4,Kroger,1.1975,11,12
-ARM & HAMMER™ Baking Soda Box,2.49,2,Kroger,1.245,7,12
-Kroger® Powered Sugar,2.59,2,Kroger,1.295,2,10
-Kroger® Light Brown Sugar,2.59,2,Kroger,1.295,4,11
-ARM & HAMMER Fridge-N-Freezer Baking Soda Odor Absorber,1.49,1,Kroger,1.49,7,13
-Simple Truth Organic® Powdered Sugar,3,2,Kroger,1.5,2,11
-Simple Truth Organic® Light Brown Sugar,3,2,Kroger,1.5,2,12
-"Club Crackers Original - 40 Twin Packs, 0.25oz",15.05,10,Walmart,1.505,20,12
-Kroger® Imitation Vanilla Flavor,3.69,2,Kroger,1.845,1,6
-Domino Premium Pure Cane Dark Brown Sugar Zipper-Pack,3.99,2,Kroger,1.995,4,12
-Plum Organics Beet + Strawberry,3.79,1.85,Food City,2.048648649,2,
-Simple Truth Organic™ Ground Saigon Cinnamon,3.99,1.855813953,Kroger,2.150000001,5,7
-McCormick Ground Cinnamon,3.49,1.62,Kroger,2.154320988,5,8
-Kroger® Ground Cinnamon Shaker,4.99,1.94,Kroger,2.572164948,5,9
-"Great Value Organic Ground Cinnamon, 1.5 oz",4.22,1.5,Walmart,2.813333333,5,10
-"Great Value Pure Vanilla Extract, 2 fl oz",5.72,2,Walmart,2.86,1,7
-Private Selection® Pure Vanilla Extract,8.99,3.132404181,Kroger,2.87,1,8
-Private Selection® Pure Vanilla Extract,5.99,1.996666667,Kroger,2.999999999,1,9
-"Great Value Pure Vanilla Extract, 1 fl oz",3.94,1,Walmart,3.94,1,10
-"Great Value Cinnamon Sticks, 0.75 oz",3.22,0.75,Walmart,4.293333333,5,11
-"52USA Organic Ceylon Cinnamon MFF30 Sticks, 1 Ounce (Pack of 1), True Cinnamon Farmed in Sri Lanka, Whole Cinnamon Sticks Bulk, Vegan, Non GMO, 28g",4.36,1,Walmart,4.36,5,12
-"McCormick Gluten Free Pure Vanilla Extract, 1 fl oz Box",4.97,1,Walmart,4.97,1,11
-"Food City Bakery Fresh Hand-dipped Milk Chocolate Covered Strawberries, 12 Ct",14.9912,0.005,Food City,2998.24,2,
-,,,,,,
-Daily's Watermelon Watermelon Frozen Cocktail,2,10,Food City,0.2,3,
-ShortCuts Large Watermelon Bowl 48 oz,3.99,16,Food City,0.249375,3,
-Dole Pineapple Slices,2.29,15.25,Food City,0.150163934,3,
-,,,,,,
-Fresh Whole Seedless Watermelon,8.99,96,Food City,0.093645833,3,
-Fresh Granny Smith Apple,1.99,16,Food City,0.124375,4,
-Fresh Organic Granny Smith Apples,2.99,16,Food City,0.186875,4,
-Wild Harvest Organic Granny Smith Apples,5.99,32,Food City,0.1871875,4,
-Seneca Granny Smith Apple Chips Peg,3,2.5,Food City,1.2,4,
-"Basket & Bushel Granny Smith Apples, Washington Extra Fancy",4.99,48,Food City,0.103958333,4,
-"ShortCuts Large Apple Bowl, Sliced Red And Granny Smith 48 oz",4.99,16,Food City,0.311875,4,
-Birds Eye Steamfresh Gold And White Corn Frozen Vegetable Bag,2.49,10.8,Food City,0.230555556,5,
-Birds Eye Sweet Peas,1.49,10,Food City,0.149,6,
-Birds Eye Petite Sweet Peas,2.39,10,Food City,0.239,6,
-Birds Eye Sauced Butter Petite Peas & Carrots,2.79,10.8,Food City,0.258333333,6,
-Birds Eye Sugar Snap Peas & Water Chestnuts Carrots Broccoli STAND PACK,2.39,10.8,Food City,0.221296296,6,
- Microwavable Russet Baking Potato,1.25,8,Food City,0.15625,7,
-Basket & Bushel Idaho Russet Potatoes Mesh Bag,6.99,160,Food City,0.0436875,7,
-Fresh Russet Potatoes Bag,19.99,800,Food City,0.0249875,7,
-"Basket & Bushel Potatoes, Russet",3.49,90,Food City,0.038777778,7,
-Better Bakers Baking Potatoes,3.49,32,Food City,0.1090625,7,
-"Basket & Bushel Potatoes, Russet, Idaho",3.99,90,Food City,0.044333333,7,
-Birds Eye Carrots & Broccoli Florets Shredded Veggies,3.49,10,Food City,0.349,8,
-"Basket & Bushel Baby Carrots, Cut & Peeled",1.99,16,Food City,0.124375,8,
-,,,,,8,
-ShortCuts Soup Starters Fresh Cut Vegetable Mix,4.99,16,Food City,0.311875,8,
-" Organic Baby Carrots, Classic Cut And Peeled",2.29,16,Food City,0.143125,8,
-ShortCuts Roasters Fresh Cut Roasting Vegetables,5.99,16,Food City,0.374375,8,
-ShortCuts Fresh Cut Celery,3.99,16,Food City,0.249375,9,
-"ShortCuts Recipe Ready Celery, Cut Fresh",2.49,8,Food City,0.31125,9,
-ShortCuts Recipe Ready Fresh Cut Celery,3.99,16,Food City,0.249375,9,
-ShortCuts Recipe Ready Fresh Cut Celery And Onions,2.49,8,Food City,0.31125,9,
-ShortCuts Recipe Ready Fresh Cut Celery And Onions,3.99,16,Food City,0.249375,9,
-Foxy Fresh Celery,1.99,16,Food City,0.124375,9,
-"Fresh Zucchini, Squash",1.29,16,Food City,0.080625,10,
-ShortCuts Grillers Zucchini Noodles,4.99,16,Food City,0.311875,10,
-Pero Family Farms Organic Zucchini,1.99,6,Food City,0.331666667,10,
-ShortCuts Grillers Fresh Cut Sliced Zucchini,3.99,16,Food City,0.249375,10,
-,,,,,10,
-"Pictsweet Farms Red Potatoes, Carrots, Onions & Zucchini",3.99,18,Food City,0.221666667,10,
-Swanson® Vegetable Broth,2,32,Food City,0.0625,11,
-Full Circle Market Vegetable Broth,2.29,32,Food City,0.0715625,11,
-Pacific Foods Organic Vegetable Broth,3.99,32,Food City,0.1246875,11,
-Power Provisions Chicken Vegetable Bone Broth Soup,3.29,1.2,Food City,2.741666667,11,
-Manischewitz Chicken Broth,3.29,17,Food City,0.193529412,11,
-Food Club Beef Broth,2.99,14.5,Food City,0.206206897,11,
- Fresh Jumbo White Onions,1.49,16,Food City,0.093125,12,
-"Basket & Bushel Onions, White",3.49,32,Food City,0.1090625,12,
-"Melissa's New Onions, White Pearl",5.99,8,Food City,0.74875,12,
-Melissa's New White Boiler Onions,5.99,7,Food City,0.855714286,12,
-ShortCuts Recipe Ready Fresh Cut White Onion,2.49,8,Food City,0.31125,12,
-ShortCuts Recipe Ready Fresh Cut White Onion,3.99,16,Food City,0.249375,12,
-Fresh Organic Spinach bunch,3.69,11,Food City,0.335454545,13,
-Fresh Express Spinach,2.99,8,Food City,0.37375,13,
-Full Circle Market Baby Spinach,3.99,5,Food City,0.798,13,
-Fresh Express Baby Spinach,3.79,5,Food City,0.758,13,
-Fresh Express Spring Mix Spinach Salad,6.99,10,Food City,0.699,13,
-Popeye Leaf Spinach,1.79,13.5,Food City,0.132592593,13,
-Fresh Center Cut Pork Loin Chops,3.99,16,Food City,0.249375,14,
-Fresh Thick Cut Center Loin Pork Chops,3.99,16,Food City,0.249375,14,
-Fresh Boneless Pork Chops,5.49,16,Food City,0.343125,14,
-Fresh Boneless Pork Chops,3.99,16,Food City,0.249375,14,
-Fresh Boneless Pork Sirloin Chops,3.99,16,Food City,0.249375,14,
-Fresh Tenderized Boneless Pork Chops,4.29,16,Food City,0.268125,14,
-Farmer Focus Boneless Skinless Chicken Breast avg weight 1.25 lb,9.99,20,Food City,0.4995,15,
-Farmer Focus Organic Boneless Skinless Chicken Breast avg weight 1.25 lb,9.99,20,Food City,0.4995,15,
-Gerber's Amish Farm Boneless Chicken Breasts,7.99,16,Food City,0.499375,15,
-Tyson Boneless Skinless Thin Sliced Chicken Breasts,10.99,40,Food City,0.27475,15,
-Gerber's Amish Farm Family Pack Boneless Chicken Breasts 2.5 lb avg weight,7.49,16,Food City,0.468125,15,
-Food Club Boneless Skinless Chicken Breast Portions,8.99,40,Food City,0.22475,15,
-,,,,,16,
-,,,,,16,
-,,,,,16,
-,,,,,16,
-Silk Original Soymilk,4.49,64,Food City,0.07015625,16,
-Silk Organic Unsweet Soymilk,4.49,64,Food City,0.07015625,16,
-,,,,,17,
-Silk Dairy-free Vanilla Soymilk Yogurt Alternative,1.79,5.3,Food City,0.337735849,17,
-,,,,,17,
-,,,,,17,
-,,,,,17,
-,,,,,17,
-Daiya Deluxe Cheddar Dairy-free Mac & Cheese,4.29,10.6,Food City,0.404716981,18,
-Follow Your Heart Cheddar Style Dairy-free Finelyy Dairy-free Cheddar Style Shredded Cheese,5.99,7,Food City,0.855714286,18,
-,,,,,18,
-,,,,,18,
-,,,,,18,
-,,,,,18,
-Prego® Traditional Pasta Sauce,2.79,24,Food City,0.11625,19,
-Prego® Traditional Pasta Sauce,4.69,45,Food City,0.104222222,19,
-Prego® Traditional Pasta Sauce,2.49,14,Food City,0.177857143,19,
-Prego® Traditional Pasta Sauce,5.99,67,Food City,0.089402985,19,
-Prego® Traditional Lower Sodium Pasta Sauce,2.79,23.5,Food City,0.118723404,19,
-Prego® Traditional No Sugar Added Pasta Sauce BOTTLE,2.79,23.5,Food City,0.118723404,19,
-Goya Red Kidney Beans,1.99,15.5,Food City,0.128387097,20,
-Hanover Light Red Red Skin Kidney Beans,2.79,40.5,Food City,0.068888889,20,
-Hanover Light Red Kidney Beans,1.29,15.5,Food City,0.083225806,20,
-Luck's Light Red Kidney Beans can,1.29,15,Food City,0.086,20,
-Hanover Dark Red Kidney Beans,2.79,40.5,Food City,0.068888889,20,
-Bush's Best Dark Red Kidney Beans,1.25,16,Food City,0.078125,20,
-Silers Great Northern Beans,1.79,16,Food City,0.111875,21,
-Hurst's Great Northern Beans,2.99,20,Food City,0.1495,21,
-Hanover Great Northern Beans,2.79,40.5,Food City,0.068888889,21,
-Hanover Great Northern Beans,1.29,15.5,Food City,0.083225806,21,
-Food Club Great Northern Beans,0.99,15.5,Food City,0.063870968,21,
-"Randall Great Northern Beans, Deluxe",4.69,48,Food City,0.097708333,21,
-Mahatma Jasmine Long Grain Rice,3.19,32,Food City,0.0996875,22,
-That's Smart! Enriched Long Grain Rice,0.99,16,Food City,0.061875,22,
-Ben's Original Long Grain White Rice BOX,4.39,32,Food City,0.1371875,22,
-"Canilla Parboiled Rice, Enriched, Long Grain",8.89,90,Food City,0.098777778,22,
-Food Club Long Grain Brown Rice,0.99,16,Food City,0.061875,22,
-Rice-A-Roni Original Long Grain & Wild Rice Box,1.67,4.3,Food City,0.388372093,22,
-Sauer's Italian Seasoning,3.99,0.75,Food City,5.32,23,
-That's Smart! Italian Seasoning,1.39,1.25,Food City,1.112,23,
-McCormick Spicy Italian Seasoning,5.49,3.88,Food City,1.414948454,23,
-Food Club Italian Seasoning,2.19,0.75,Food City,2.92,23,
-Full Circle Market Italian Seasoning,3.29,0.8,Food City,4.1125,23,
-McCormick Perfect Pinch Italian Seasoning,5.49,1.31,Food City,4.190839695,23,
-Coca-Cola Cherry Cola,1.99,42.2,Food City,0.047156398,24,
-Coca-Cola Cherry Cola,2.5,67.6,Food City,0.036982249,24,
-"Coca-Cola Soda, Cherry",7.49,102,Food City,0.073431373,24,
-Coca-Cola Mini Cherry Cola,6.99,75,Food City,0.0932,24,
-Coca-Cola Cherry Soda Soft Drink 12 Pk.,10.49,144,Food City,0.072847222,24,
-Coca-Cola Cherry Soda Soft Drink Pack,4.99,72,Food City,0.069305556,24,
-Food Club Pure Cane Granulated Sugar,2.19,32,Food City,0.0684375,25,
-"Food Club Sugar, Pure Cane, Granulated",4.39,160,Food City,0.0274375,25,
-Domino Premium Pure Cane Granulated Sugar Bag,4.39,64,Food City,0.06859375,25,
-Food Club Pure Cane Granulated Sugar,21.99,400,Food City,0.054975,25,
-Food Club Pure Cane Granulated Sugar,3.49,64,Food City,0.05453125,25,
-"That's Smart! Sugar, Pure Cane, Granulated",2.29,64,Food City,0.03578125,25,
-Martha White All-purpose Flour,2.99,90,Food City,0.033222222,26,
-Martha White All-purpose Flour,2.49,32,Food City,0.0778125,26,
-White Lily All-purpose Flour,2.99,32,Food City,0.0934375,26,
-Food City All Purpose Flour,1.79,32,Food City,0.0559375,26,
-Food City All-purpose Flour,2.49,90,Food City,0.027666667,26,
-Gold Medal All Purpose Flour,5.69,90,Food City,0.063222222,26,
-Premier Protein Vanilla Vanilla High Protein Shake,2.99,11.5,Food City,0.26,27,
-"Noosa Vanilla Bean Yoghurt, Finest, Vanilla Bean PLASTIC CONTAINER",2.19,8,Food City,0.27375,27,
-Montchevre Blueberry Vanilla Blueberry Vanilla Goat Cheese log,5.99,4,Food City,1.4975,27,
-Dymatize Gourmet Vanilla Gourmet Vanilla Protein Powder,36.99,21.2,Food City,1.744811321,27,
-,,,,,,
-,,,,,,
-"Domino Sugar, Powdered, Premium Cane",3.99,16,Food City,0.249375,28,
-Full Circle Market Powdered Sugar,6.99,16,Food City,0.436875,28,
-Domino Powdered Premium Cane Sugar,3.59,32,Food City,0.1121875,28,
-"Food Club Confectioners Sugar, With Cornstarch, Pure Cane",3.59,32,Food City,0.1121875,28,
-Truvia Stevia Leaf Confectioners Sweetener,3.59,12,Food City,0.299166667,28,
-Crystal Light Sugar Free Raspberry Ice Powdered Drink Mix 10 Ct.,9.99,0.6,Food City,16.65,28,
-Food Club Canola Oil,4.79,40,Food City,0.11975,29,
-Crisco Pure Canola Oil,12.99,128,Food City,0.101484375,29,
-That's Smart! Canola Oil,3.49,40,Food City,0.08725,29,
-Wesson Canola Oil,5.49,40,Food City,0.13725,29,
-Food Club Canola Oil,3.29,32,Food City,0.1028125,29,
-Food Club Canola Oil,10.99,128,Food City,0.085859375,29,
-Full Circle Light Brown Pure Sugar,4.29,24,Food City,0.17875,30,
-Domino Premium Pure Cane Light Brown Sugar,2.99,32,Food City,0.0934375,30,
-"Domino Sugar, Dark Brown, Premium Pure Cane",5.79,16,Food City,0.361875,30,
-Domino Premium Pure Cane Dark Brown Sugar,6.99,32,Food City,0.2184375,30,
-"Domino Sugar, Premium Pure Cane, Light Brown",6.49,16,Food City,0.405625,30,
-"Food Club Sugar, Pure Cane, Light Brown",6.99,32,Food City,0.2184375,30,
-Food Club Ground Cinnamon,3.99,4.12,Food City,0.968446602,31,
-Food Club Ground Cinnamon,2.49,2.37,Food City,1.050632911,31,
-Food Club Ground Saigon Cinnamon,5.99,5.2,Food City,1.151923077,31,
-Sauer's Ground Cinnamon,5.99,2.25,Food City,2.662222222,31,
-Sauer's Value Size Ground Cinnamon,12.49,8.5,Food City,1.469411765,31,
-Badia Cinnamon,1.99,0.5,Food City,3.98,31,
-"Rumford Baking Powder, Reduced Sodium CONTAINER",3.59,4,Food City,0.8975,32,
-"Clabber Girl Baking Powder, Double Acting",2.99,8.1,Food City,0.369135802,32,
-Food Club Double Acting Baking Powder,2.49,8.1,Food City,0.307407407,32,
-Wilton Meringue Powder,9.99,4,Food City,2.4975,32,
-Food Club Unsweetened Baking Cocoa,4.59,8,Food City,0.57375,32,
-"Baker's Premium Bittersweet Chocolate Baking Bar, 66% Cacao",4.29,4,Food City,1.0725,32,
-Arm & Hammer Fridge-n-freezer Baking Soda,1.59,14,Food City,0.113571429,33,
-Food Club Pure Baking Soda,3.29,64,Food City,0.05140625,33,
-"Arm & Hammer Baking Soda, Pure",2.69,12,Food City,0.224166667,33,
-Food Club Pure Baking Soda,0.99,16,Food City,0.061875,33,
-Arm & Hammer Pure Baking Soda,0.99,8,Food City,0.12375,33,
-,,,,,,
-Imperial Vegetable Oil Spread,4.29,45,Food City,0.095333333,34,
-Imperial Vegetable Oil Spread,1.59,16,Food City,0.099375,34,
-Oreo Double Stuf Golden Sandwich Cookies,4.69,14.03,Food City,0.334283678,35,
-"OREO Double Stuf Chocolate Sandwich Cookies, 14.03 Oz",4.69,14.03,Food City,0.334283678,35,
-Oreo Family Size Double Stuf Golden Sandwich Cookies,5.39,18.71,Food City,0.28808124,35,
-Oreo Party Size Double Stuf Golden Sandwich Cookies,6.99,24.95,Food City,0.280160321,35,
-"OREO Double Stuf Chocolate Sandwich Cookies, Family Size, 18.71 Oz",5.39,18.71,Food City,0.28808124,35,
-"OREO Double Stuf Chocolate Sandwich Cookies, Party Size, 24.95 Oz",6.99,24.95,Food City,0.280160321,35,
-,,,,,,
-,,,,,,
-Food Club Original Non-dairy Coffee Creamer,4.99,22,Food City,0.226818182,36,
-Food Club Original Non-dairy Coffee Creamer,3.79,16,Food City,0.236875,36,
-Food Club Original Non-dairy Coffee Creamer,6.99,35.3,Food City,0.198016997,36,
-Food Club Original Non-dairy Coffee Creamer,2.79,11,Food City,0.253636364,36,
-Lay's Original Potato Crisps,1.99,5.75,Food City,0.346086957,37,
-Lay's Original Wavy Potato Chips,3.99,7.75,Food City,0.51483871,37,
-Lay's Original Kettle Cooked Potato Chips,3.99,8,Food City,0.49875,37,
-Lay's Party Size Original Potato Chips Party Size bag,5.69,13,Food City,0.437692308,37,
-Lay's Party Size Original Baked 65% Less Fat Potato Crisps,6.49,9.25,Food City,0.701621622,37,
-Club Original Crackers,3.79,13.7,Food City,0.276642336,38,
-Club Multifgrain Crackers,3.79,12.7,Food City,0.298425197,38,
-Club Sweet Hawaiian Crackers,3.79,13.7,Food City,0.276642336,38,
-Club Reduced Fat Crackers,3.79,11.7,Food City,0.323931624,38,
-Club Minis Original Crackers,3.79,11,Food City,0.344545455,38,
-Food Club Graham Cracker Crumbs,2.99,13.5,Food City,0.221481481,38,
+Product,Price,Ounces,Source,Price per ounce,Category,First?
+Bunch of Bananas,1.03,30,Kroger,0.034333333,0,TRUE
+"Fresh Banana, Each",0.21,5,Walmart,0.042,0,FALSE
+Bunch of Organic Bananas,1.45,30,Kroger,0.048333333,0,FALSE
+Fyffes Bagged Green Bananas,1.99,40,Food City,0.04975,0,FALSE
+Fresh Banana - each - Good & Gather™,0.29,5,Target,0.058,0,FALSE
+Fresh Organic Bananas - 2lb - Good & Gather™,1.99,32,Target,0.0621875,0,FALSE
+"Fresh Plantain, 1 Count",0.68,8,Walmart,0.085,0,FALSE
+Fresh Bananas,0.58,5,Food City,0.116,0,FALSE
+"Great Value Sliced Bananas, 16 oz, Bag",2.47,16,Walmart,0.154375,0,FALSE
+Fresh Organic Bananas,0.79,5,Food City,0.158,0,FALSE
+Strawberry Banana Frozen Fruit Blend - 48oz - Good & Gather™,8.49,48,Target,0.176875,0,FALSE
+Moon Pie Mini Banana,1.29,6,Food City,0.215,0,FALSE
+Hostess Banana Twinkies,3.99,13.58,Food City,0.293814433,0,FALSE
+"Savor Banana Slices, 30 Pound - 1 each.",146.73,480,Walmart,0.3056875,0,FALSE
+Concord Foods Smoothie Banana,1.5,2,Food City,0.75,0,FALSE
+"Marketside Fresh Organic Bananas, Bunch",1.8,2.307,Walmart,0.78023407,0,FALSE
+Mamma Chia Organic Squeeze Vitality Snack Wild Raspberry - Case of 16/3.5 oz,46.99,56,Target,0.839107143,0,FALSE
+Noka Organic Superfood Smoothie Mango Coconut - Case of 6/4.22 oz,29.99,25.32,Target,1.184439179,0,FALSE
+Noka Organic Superfood Smoothie Cherry Acai - Case of 6/4.22 oz,31.99,25.32,Target,1.26342812,0,FALSE
+Natierra Frozen Dried Raw Banana 2.5 oz (Pack of 12),100.99,30,Walmart,3.366333333,0,FALSE
+Welch's Concord Grape Jelly - 30oz,3.39,30,Target,0.113,1,TRUE
+"(3 pack) Welch's Natural Strawberry Spread, 27 oz Jar",11.94,81,Walmart,0.147407407,1,FALSE
+"Welch's Natural Strawberry Spread, 27 oz Jar",3.98,27,Walmart,0.147407407,1,FALSE
+Welches Natural Grape Spread,4.19,27,Kroger,0.155185185,1,FALSE
+Smucker's Grape Jelly,3.19,20,Food City,0.1595,1,FALSE
+Welch's Squeeze Concord Grape Jelly - 20oz,3.19,20,Target,0.1595,1,FALSE
+Food Club Strawberry Jelly,2.99,18,Food City,0.166111111,1,FALSE
+"(2 pack) Welch's Strawberry Spread, 20 oz Squeeze Bottle",6.94,40,Walmart,0.1735,1,FALSE
+"Welch's Strawberry Spread, 20 oz Squeeze Bottle",3.47,20,Walmart,0.1735,1,FALSE
+Welches Natural Strawberry Spread,4.99,27,Kroger,0.184814815,1,FALSE
+Welch's Natural Concord Grape Spread - 18oz,3.39,18,Target,0.188333333,1,FALSE
+Welch's Natural Strawberry Spread - 19.8oz,3.79,19.8,Target,0.191414141,1,FALSE
+"Welch's Natural Strawberry Spread, 17 oz Jar",3.27,17,Walmart,0.192352941,1,FALSE
+"Welch's Natural Strawberry Spread, 18 oz Squeeze Bottle",3.57,18,Walmart,0.198333333,1,FALSE
+Smucker's Strawberry Peanut Butter & Strawberry Jelly Stripes,3.99,18,Food City,0.221666667,1,FALSE
+Smucker's Strawberry Jelly,4.49,18,Food City,0.249444444,1,FALSE
+Smuckers Simply Fruit Strawberry Spread,4.19,10,Kroger,0.419,1,FALSE
+WELCH'S  Fruit Snacks Mixed Fruit - 8oz/10ct,3.39,8,Target,0.42375,1,FALSE
+Jelly Belly Sours,4.99,9.8,Food City,0.509183673,1,FALSE
+Jelly Belly Sizzling Cinnamon Jelly Beans,2,3.5,Food City,0.571428571,1,FALSE
+"Great Value Whole Strawberries, 64 oz (Frozen)",9.42,64,Walmart,0.1471875,2,TRUE
+"Great Value Sliced Strawberries, 64 oz (Frozen)",9.82,64,Walmart,0.1534375,2,FALSE
+"Great Value Whole Strawberries, 16 oz (Frozen)",2.86,16,Walmart,0.17875,2,FALSE
+Fresh Strawberries 2 lbs,8.49,32,Kroger,0.2653125,2,FALSE
+Fresh Strawberries 1 lb,4.29,16,Kroger,0.268125,2,FALSE
+"Fresh Strawberries, 2 lb, Container",8.78,32,Walmart,0.274375,2,FALSE
+"Fresh Strawberries, 1 lb Container",4.44,16,Walmart,0.2775,2,FALSE
+Fresh Strawberries - 2lb,9.49,32,Target,0.2965625,2,FALSE
+Fresh Strawberries - 1lb,4.99,16,Target,0.311875,2,FALSE
+"Fresh Strawberries, 8.8 oz Container",2.97,8.8,Walmart,0.3375,2,FALSE
+Fresh Strawberry Yogurt Parfait,3.99,10.8,Food City,0.369444444,2,FALSE
+Basket & Bushel Fresh Strawberries,5.99,16,Food City,0.374375,2,FALSE
+Driscoll's Organic Strawberries,5.99,16,Food City,0.374375,2,FALSE
+Fresh Strawberries Organic 1 lb,5.99,16,Kroger,0.374375,2,FALSE
+Fresh Organic Strawberries - 16oz,6.49,16,Target,0.405625,2,FALSE
+Fresh Chocolate Dipped Strawberries,14.99,16,Food City,0.936875,2,FALSE
+Plum Organics Beet + Strawberry,3.79,1.85,Food City,2.048648649,2,FALSE
+Fresh Mini Watermelon - each,4.19,64,Target,0.06546875,3,TRUE
+Dole Pineapple Slices,2.29,15.25,Food City,0.150163934,3,FALSE
+Fresh Cut Watermelon 4 Slices,4.29,26,Kroger,0.165,3,FALSE
+Daily's Watermelon Watermelon Frozen Cocktail,2,10,Food City,0.2,3,FALSE
+"Marketside Fresh Cut Watermelon Chunks, 42 oz Tray",9.24,42,Walmart,0.22,3,FALSE
+"Marketside Fresh Cut Watermelon, 32 oz Tray",7.36,32,Walmart,0.23,3,FALSE
+ShortCuts Large Watermelon Bowl 48 oz,3.99,16,Food City,0.249375,3,FALSE
+Fresh Cut Seedless Watermelon,14.99,60,Kroger,0.249833333,3,FALSE
+Fresh Cut Seedless Watermelon,10,36,Kroger,0.277777778,3,FALSE
+Fresh Cut Watermelon Chunks,5,18,Kroger,0.277777778,3,FALSE
+Fresh Cut Seedless Watermelon,3,10,Kroger,0.3,3,FALSE
+"Marketside Fresh Cut Watermelon, 16 oz Tray",4.93,16,Walmart,0.308125,3,FALSE
+Watermelon Spears - 1lb,5.49,16,Target,0.343125,3,FALSE
+"Marketside Fresh Cut Watermelon Chunks, 10 oz Tray",3.57,10,Walmart,0.357,3,FALSE
+"Nutty & Fruits Dried Watermelon, Soft & Chewy, Naturally Gluten Free, 5 oz (142g)",14.95,5,Walmart,2.99,3,FALSE
+Fresh Granny Smith Apples - 3lb Bag - Good & Gather™,3.99,48,Target,0.083125,4,TRUE
+Fresh Organic Gala Apples - 2lbs Bag - Good & Gather™,3.19,32,Target,0.0996875,4,FALSE
+"Fresh Granny Smith Apples, 3 lb Bag",5.28,48,Walmart,0.11,4,FALSE
+Small Granny Smith Apple - Each,0.67,6,Kroger,0.111666667,4,FALSE
+"Fresh Granny Smith Apple, Each",0.8,6,Walmart,0.133333333,4,FALSE
+"Fresh Organic Granny Smith Apples, 3 lb Pouch",6.97,48,Walmart,0.145208333,4,FALSE
+Fresh Organic Granny Smith Apples - 2lb Bag - Good & Gather™,5.69,32,Target,0.1778125,4,FALSE
+Private Selection® Rockit™ Apples – 2 Pound Bag,5.99,32,Kroger,0.1871875,4,FALSE
+Private Selection® SugarBee® Apples – 2 Pound Bag,5.99,32,Kroger,0.1871875,4,FALSE
+Kroger® Granny Smith Apples – 5 Pound Bag,5,5,Kroger,1,4,FALSE
+Kroger® Granny Smith Apples – 3 Pound Bag,3.99,3,Kroger,1.33,4,FALSE
+Granny Smith Apple Chips Value Pack | 2.5 Ounce | Pack of 6,25.62,15,Walmart,1.708,4,FALSE
+Large Granny Smith Apple - Each,1,0.502512563,Kroger,1.99,4,FALSE
+"Pack of 12, Bare Fruit Granny Smith Apple Chips, 3.4 oz",91.84,40.8,Walmart,2.250980392,4,FALSE
+"Birds Eye Sweet Corn, Frozen Vegetables, 80 oz. Bag",6.92,80,Walmart,0.0865,5,TRUE
+"Birds Eye Steamfresh Super Sweet Corn, Frozen Vegetables, 10 oz. Bag",1,10,Walmart,0.1,5,FALSE
+"Pinnacle Foods Birds Eye Steamfresh Corn, 10.8 oz",1.27,10.8,Walmart,0.117592593,5,FALSE
+Birds Eye Steamfresh Frozen Super Sweet Corn - 10oz,1.29,10,Target,0.129,5,FALSE
+"Birds Eye Steamfresh Mixed Vegetables, Frozen Vegetables",1.59,10.8,Kroger,0.147222222,5,FALSE
+"Birds Eye Steamfresh Sweet Peas, Frozen Vegetables",1.49,10,Kroger,0.149,5,FALSE
+"Birds Eye Steamfresh Whole Green Beans, Frozen Vegetables",2.29,15.26666667,Kroger,0.15,5,FALSE
+"Birds Eye Steamfresh Cut Green Beans, Frozen Vegetables",1.59,10,Kroger,0.159,5,FALSE
+"Birds Eye Steamfresh Super Sweet Corn, Frozen Vegetables",1.59,9.9375,Kroger,0.16,5,FALSE
+Pinnacle Foods Birds Eye Steamfresh Premium Selects Corn 12 oz,1.97,12,Walmart,0.164166667,5,FALSE
+"Birds Eye Steamfresh Gold and White Corn, Frozen Vegetables, 10.8 oz. Bag",1.97,10.8,Walmart,0.182407407,5,FALSE
+Birds Eye Steamfresh Frozen Gold & White Corn - 10.8oz,1.99,10.8,Target,0.184259259,5,FALSE
+"Birds Eye Fire Roasted Corn, Frozen Vegetables",4.99,23.76190476,Kroger,0.21,5,FALSE
+Birds Eye Steamfresh Frozen Broccoli Florets - 10.8oz,2.99,10.8,Target,0.276851852,5,FALSE
+"Birds Eye Steamfresh Sweet Peas, Frozen Vegetables, 10 oz. Bag",1,10,Walmart,0.1,6,TRUE
+Birds Eye Steamfresh Sweet Peas,1.27,10.8,Walmart,0.117592593,6,FALSE
+"Birds Eye Steamfresh Mixed Vegetables, Frozen Vegetables",1.59,10.8,Kroger,0.147222222,6,FALSE
+"Birds Eye Steamfresh Sweet Peas, Frozen Vegetables",1.49,9.933333333,Kroger,0.15,6,FALSE
+"Birds Eye Steamfresh Cut Green Beans, Frozen Vegetables",1.59,9.9375,Kroger,0.16,6,FALSE
+"Birds Eye Steamfresh Super Sweet Corn, Frozen Vegetables",1.59,7.571428571,Kroger,0.21,6,FALSE
+"Birds Eye Baby Sweet Peas, Frozen Vegetables",2.29,10,Kroger,0.229,6,FALSE
+"Birds Eye Steamfresh Whole Green Beans, Frozen Vegetables",2.29,10,Kroger,0.229,6,FALSE
+Fresh Russet Potatoes - 5lbs - (Brand May Vary),2.59,80,Target,0.032375,7,TRUE
+Fresh Idaho Russet Potatoes 4 lb Bag,2.74,64,Walmart,0.0428125,7,FALSE
+"Russet Potatoes, 10 lb Bag, Whole",7.34,160,Walmart,0.045875,7,FALSE
+"Fresh Whole Russet Potatoes , 5 lb Bag",4.24,80,Walmart,0.053,7,FALSE
+"Jumbo Russet Potatoes Whole Fresh, 8 lb Bag",7.42,128,Walmart,0.05796875,7,FALSE
+Fresh Golden Potatoes - 5lb - Good & Gather™,5.89,80,Target,0.073625,7,FALSE
+"Russet Baking Potatoes Whole Fresh, Each",0.75,8,Walmart,0.09375,7,FALSE
+Fresh Russet Potato - each,0.89,8,Target,0.11125,7,FALSE
+Kroger® Baker Russet Potatoes,3.99,32,Kroger,0.1246875,7,FALSE
+"Microwaveable Russet Potato Whole Fresh, Each",1.14,8,Walmart,0.1425,7,FALSE
+Private Selection™ Petite Medley Fresh Snacking Tomatoes,3.79,10,Kroger,0.379,7,FALSE
+Kroger® Russet Potatoes,2.5,5,Kroger,0.5,7,FALSE
+Russet Potato,0.67,0.752808989,Kroger,0.89,7,FALSE
+Kroger® Jumbo Russet Potatoes,7.49,8,Kroger,0.93625,7,FALSE
+Fresh Baby-Cut Carrots - 1lb - Good & Gather™,1.29,16,Target,0.080625,8,TRUE
+Frozen Crinkle-Cut Carrots - 12oz - Good & Gather™,0.99,12,Target,0.0825,8,FALSE
+Fresh Organic Carrots - 1lb - Good & Gather™,1.49,16,Target,0.093125,8,FALSE
+Fresh Organic Baby-Cut Carrots - 1lb - Good & Gather™,1.79,16,Target,0.111875,8,FALSE
+Fresh Petite Baby-Cut Carrots - 12oz - Good & Gather™,1.89,12,Target,0.1575,8,FALSE
+Fresh Carrot Sticks - 12oz - Good & Gather™,1.99,12,Target,0.165833333,8,FALSE
+"Fresh Shredded Carrots, 10 oz Bag",1.87,10,Walmart,0.187,8,FALSE
+"Organic Fresh Shredded Carrots, 10 oz Bag",2.43,10,Walmart,0.243,8,FALSE
+Celery,1.99,46,Kroger,0.04326087,9,TRUE
+"Fresh Celery Sticks, 20 oz Bag",2.96,20,Walmart,0.148,9,FALSE
+Fresh Celery Sticks - 20oz - Good & Gather™ (Packaging May Vary),3.19,20,Target,0.1595,9,FALSE
+Private Selection® Long Celery Sticks,3.29,20,Kroger,0.1645,9,FALSE
+"Fresh Celery Hearts, Each",2.82,16,Walmart,0.17625,9,FALSE
+Organic Celery,2.99,16,Kroger,0.186875,9,FALSE
+"Organic Fresh Celery Hearts, Each",3.84,16,Walmart,0.24,9,FALSE
+Suja Organic Celery Cold Pressed Juice Drink,10.99,45.79166667,Kroger,0.24,9,FALSE
+Fresh Organic Celery Hearts - 16oz/2ct - Good & Gather™,3.99,16,Target,0.249375,9,FALSE
+"Marketside Fresh Celery Sticks, 1.6 oz, 4 Pack",1.97,6.4,Walmart,0.3078125,9,FALSE
+Celery Hearts,3.79,6,Kroger,0.631666667,9,FALSE
+"Fresh Celery Stalk, Each",2.12,2,Walmart,1.06,9,FALSE
+"Organic Marketside Fresh Celery Stalk, Each",2.87,2,Walmart,1.435,9,FALSE
+Dried Celery Flakes by It's Delish,32.99,5,Target,6.598,9,FALSE
+Zucchini Tray,2.5,18,Kroger,0.138888889,10,TRUE
+"Fresh Produce, Whole Zucchini, 1 Each",1.02,6,Walmart,0.17,10,FALSE
+"Great Value Zucchini Blend, 10 oz (Frozen)",1.92,10,Walmart,0.192,10,FALSE
+"Fresh Organic Zucchini Squash, 2 Count",2.96,12,Walmart,0.246666667,10,FALSE
+Fresh Organic Zucchini - 2ct,3.19,12,Target,0.265833333,10,FALSE
+"Simplot Classic Crinkle Cut Sliced Zucchini, 32 Ounce - 12 per case.",109.98,384,Walmart,0.28640625,10,FALSE
+Frozen  Mediterranean-Style Seasoned Vegetable Blend - 14oz - Good & Gather™,4.39,14,Target,0.313571429,10,FALSE
+Birds Eye Frozen Zucchini Lentil Pasta with Marinara Sauce - 10oz,3.19,10,Target,0.319,10,FALSE
+"Green Giant Veggie Spirals Zucchini, Gluten Free, 12 oz Bag (Frozen Vegetables)",3.86,12,Walmart,0.321666667,10,FALSE
+NatureSweet Cherubs® Fresh Grape Tomatoes,5.49,16.5,Kroger,0.332727273,10,FALSE
+Private Selection™ Petite Medley Fresh Snacking Tomatoes,3.79,10,Kroger,0.379,10,FALSE
+Squash Yellow,0.85,0.50295858,Kroger,1.69,10,FALSE
+Zucchini,0.85,0.50295858,Kroger,1.69,10,FALSE
+"Mother Earth Products Dehydrated Zucchini, 1 Full Quart Mylar Bag",9.16,4,Walmart,2.29,10,FALSE
+Organic Zucchini Squash,1.15,0.502183406,Kroger,2.29,10,FALSE
+"(2 pack) Great Value Vegetable Broth, 32 oz Carton, Shelf-Stable/Ambient, Gluten-Free",3,64,Walmart,0.046875,11,TRUE
+"Great Value Vegetable Broth, 32 oz Carton, Shelf-Stable/Ambient, Gluten-Free",1.5,32,Walmart,0.046875,11,FALSE
+Vegetable Broth - 32oz - Good & Gather™,1.59,32,Target,0.0496875,11,FALSE
+"Great Value Organic Vegetable Broth, 32 oz Carton, Shelf-Stable/Ambient, Gluten-Free",1.98,32,Walmart,0.061875,11,FALSE
+"Progresso Vegetable Broth, Vegetarian, Gluten Free, 32 oz.",1.98,32,Walmart,0.061875,11,FALSE
+"Swanson Vegetable Broth, 32 oz Carton",1.98,32,Walmart,0.061875,11,FALSE
+Pacific Foods Gluten Free Organic Low Sodium Plant Based Vegetable Broth - 32oz,2.29,32,Target,0.0715625,11,FALSE
+"Pacific Foods Low Sodium Organic Vegetable Broth, 32 oz Carton",3.18,32,Walmart,0.099375,11,FALSE
+White Onions,0.7,12,Kroger,0.058333333,12,TRUE
+Fresh Yellow Onions - 3lb Bag - Good & Gather™,2.99,48,Target,0.062291667,12,FALSE
+"Fresh White Onions, 3 lb Bag",3.44,48,Walmart,0.071666667,12,FALSE
+"Fresh Sweet Onions, 3 lb, Bag",3.88,48,Walmart,0.080833333,12,FALSE
+Fresh Red Onion - each,0.99,8,Target,0.12375,12,FALSE
+Fresh White Onion - each,0.99,8,Target,0.12375,12,FALSE
+Fresh Yellow Onion - each,0.99,8,Target,0.12375,12,FALSE
+"Fresh Whole White Onions, Each",1.03,8,Walmart,0.12875,12,FALSE
+White Peeled Onions,1.87,12,Kroger,0.155833333,12,FALSE
+"Great Value Frozen Chopped Onions, 10 oz",1.56,10,Walmart,0.156,12,FALSE
+"Fresh Whole Sweet Onion, Each",1.29,8,Walmart,0.16125,12,FALSE
+Fresh Green Onions - 5.5oz - Good & Gather™,0.99,5.5,Target,0.18,12,FALSE
+Fresh Whole White Boiler Onions 16oz bag,3.18,16,Walmart,0.19875,12,FALSE
+Taylor Farms® Mexican Street Corn Chopped Salad Kit,3.67,11.62,Kroger,0.315834768,12,FALSE
+Medium Yellow Onions,0.6,0.504201681,Kroger,1.19,12,FALSE
+Kroger® White Onion 3 lb Bag,3.99,3,Kroger,1.33,12,FALSE
+"Great Value Chopped Spinach, 12 oz (Frozen)",1.26,12,Walmart,0.105,13,TRUE
+"Marketside Fresh Spinach, 10 oz Bag",1.84,10,Walmart,0.184,13,FALSE
+Fresh Steam-in-Bag Spinach - 9oz - Good & Gather™,1.99,9,Target,0.221111111,13,FALSE
+"Marketside Organic Fresh Baby Spinach, 16 oz",4.98,16,Walmart,0.31125,13,FALSE
+"Marketside Fresh Baby Spinach, 11 oz",3.64,11,Walmart,0.330909091,13,FALSE
+"Marketside Fresh Baby Spinach, 6 oz, Bag",2.18,6,Walmart,0.363333333,13,FALSE
+Fresh Baby Spinach - 5oz - Good & Gather™,2.19,5,Target,0.438,13,FALSE
+"Marketside Organic Baby Spinach Salad, 5 oz Clam Shell, Fresh",2.98,5,Walmart,0.596,13,FALSE
+Fresh Organic Baby Spinach - 5oz - Good & Gather™,2.99,5,Target,0.598,13,FALSE
+"Pork Center Cut Loin Chops Boneless Family Pack, 2.0 - 3.8 lb Tray",12.26,60.8,Walmart,0.201644737,14,TRUE
+Boneless Pork Loin Chops,5,20,Kroger,0.25,14,FALSE
+"Pork Center Cut Loin Chops Thin Boneless Family Pack, 2.0 - 3.2 lb, Tray",12.31,41.6,Walmart,0.295913462,14,FALSE
+"Pork Center Cut Loin Chops Thin Boneless, 1.0 - 2.5 lb, Tray",8.36,28,Walmart,0.298571429,14,FALSE
+Kroger® Boneless Center Cut Pork Loin Chops,10,32,Kroger,0.3125,14,FALSE
+"Pork Center Cut Loin Chops Boneless, 0.9 - 2.01 lb, Tray",8.19,23.3,Walmart,0.351502146,14,FALSE
+Tyson® Pork Griller Steak Seasoned Steakhouse Freshly Marinated Boneless Ready to Cook,5,12,Kroger,0.416666667,14,FALSE
+Tyson® Pork Chops Classic Garlic & Herb Freshly Seasoned Boneless Ready to Cook,5,11.9047619,Kroger,0.42,14,FALSE
+Kroger® Bone-In Pork Loin Chops,10,20,Kroger,0.5,14,FALSE
+Kroger® Bone-In Pork Loin Center Cut Chop,8.78,12,Kroger,0.731666667,14,FALSE
+"Smithfield Fresh Pork Center Cut Loin Boneless, 1.6-4.4 lb, 24 Grams of Protein per 4 oz Serving",9.85,4,Walmart,2.4625,14,FALSE
+"Smithfield Fresh Pork Center Cut Loin Boneless, 3 - 6 lb., 24 Grams of Protein per 4 oz Serving",10.85,4,Walmart,2.7125,14,FALSE
+"Boneless, Skinless Chicken Breasts, 4.7-6.1 lb Tray",11.72,86.4,Walmart,0.135648148,15,TRUE
+"Tyson Trimmed & Ready All Natural, Fresh, Thin Sliced Boneless Skinless Chicken Breasts, 1.0 - 2.0 lb Tray",5.43,32,Walmart,0.1696875,15,FALSE
+"Tyson All Natural, Fresh, Boneless, Skinless Chicken Breasts, 2.5 - 4.0 lb Tray",10.88,64,Walmart,0.17,15,FALSE
+"Tyson All Natural, Fresh, Boneless, Skinless Chicken Breasts, 1.75 - 3.0 lb Tray",9.74,48,Walmart,0.202916667,15,FALSE
+"Great Value All Natural Boneless Skinless Chicken Breasts, 3 lb (Frozen)",9.94,48,Walmart,0.207083333,15,FALSE
+All Natural Boneless & Skinless Breast - Frozen - 40oz - Good & Gather™,8.49,40,Target,0.21225,15,FALSE
+All Natural Boneless & Skinless Chicken Breast Value Pack - 2.5-5.25lbs - price per lb - Good & Gather™,13.45,62,Target,0.216935484,15,FALSE
+"Freshness Guaranteed Thin-Sliced Boneless Skinless Chicken Breasts, 1.4 - 2.8 lb Tray",9.84,44.8,Walmart,0.219642857,15,FALSE
+Tyson Boneless & Skinless Chicken Breasts - Frozen - 40oz,9.99,40,Target,0.24975,15,FALSE
+Heritage Farm® Boneless Skinless Chicken Tenderloins,6.6,23.5,Kroger,0.280851064,15,FALSE
+Heritage Farm® Boneless Skinless Thin Sliced Chicken Breasts,8.38,27.99,Kroger,0.29939264,15,FALSE
+PERDUE® Fresh Boneless Skinless Chicken Thighs,9.88,31.6,Kroger,0.312658228,15,FALSE
+PERDUE® Fresh Boneless Skinless Chicken Breast Tenderloins,7.69,17.6,Kroger,0.436931818,15,FALSE
+PERDUE® Thin Sliced Boneless Skinless Chicken Breasts,9.09,20.8,Kroger,0.437019231,15,FALSE
+Tyson Trimmed & Ready Boneless & Skinless Chicken Breast - 1-2-11lbs - price per lb,11.16,24,Target,0.465,15,FALSE
+Heritage Farm® Boneless Skinless Chicken Breasts,12.56,25.2,Kroger,0.498412698,15,FALSE
+All Natural Boneless & Skinless Chicken Breast - price per lb - Good & Gather™,8.34,16,Target,0.52125,15,FALSE
+All Natural Boneless & Skinless Thin Sliced Chicken Breast Value - price per lb - Good & Gather™,9.98,16,Target,0.62375,15,FALSE
+Silk Dairy Free Vegan Organic Unsweetened Plain Soy Milk Half Gallon,4.29,71.5,Kroger,0.06,16,TRUE
+Silk Dairy Free Vegan Original Almond Milk Half Gallon,3.59,59.83333333,Kroger,0.06,16,FALSE
+"Silk Dairy Free, Gluten Free, Original Soy Milk, 64 fl oz Half Gallon",3.97,64,Walmart,0.06203125,16,FALSE
+"Silk Dairy Free, Gluten Free, Unsweet Organic Soy Milk, 64 fl oz Half Gallon",3.97,64,Walmart,0.06203125,16,FALSE
+Silk Dairy Free Protein Original Soy Milk Half Gallon,4.29,64,Kroger,0.06703125,16,FALSE
+Silk Dairy Free Vegan Vanilla Soy Milk Half Gallon,4.29,64,Kroger,0.06703125,16,FALSE
+Silk Dairy Free Vegan Unsweetened Original Almond Milk Half Gallon,3.59,51.28571429,Kroger,0.07,16,FALSE
+Silk Organic Unsweetened Soy Milk - 0.5gal,4.49,64,Target,0.07015625,16,FALSE
+"(Pack of 6) Silk Organic Shelf-Stable Unsweetened Soy Milk, 1 Quart",15.79,192,Walmart,0.082239583,16,FALSE
+"(Pack of 6) Silk Shelf-Stable Vanilla Soy Milk, 1 Quart",15.79,192,Walmart,0.082239583,16,FALSE
+Silk Shelf Stable Chocolate Soy Milk - 6ct/8 fl oz Boxes,7.99,64,Target,0.12484375,16,FALSE
+"(Pack of 6) Silk Shelf-Stable Original Soy Milk, 1 Quart",33.97,192,Walmart,0.176927083,16,FALSE
+"Silk Shelf-Stable Very Vanilla Soy Milk Singles, 8 Oz., 12 Count",23.6,96,Walmart,0.245833333,16,FALSE
+Silk Strawberry Dairy Free Vegan Soy Milk Yogurt Alternative Cup,1.59,24,Kroger,0.06625,17,TRUE
+Silk Vanilla Dairy Free Almond Milk Yogurt Alternative Cup,1.69,7.041666667,Kroger,0.24,17,FALSE
+Silk Vanilla Dairy Free Vegan Soy Milk Yogurt Alternative Tub,5.79,19.3,Kroger,0.3,17,FALSE
+Silk Blueberry Dairy Free Vegan Soy Milk Yogurt Alternative Cup,1.59,5.3,Kroger,0.3,17,FALSE
+Silk Vanilla Dairy Free Vegan Soy Milk Yogurt Alternative Cup,1.59,5.3,Kroger,0.3,17,FALSE
+"Silk Dairy Free, Blueberry Plant Based, Soy Milk Yogurt Alternative Container, 5.3 oz",1.66,5.3,Walmart,0.313207547,17,FALSE
+"Silk Dairy Free, Strawberry Plant Based, Soy Milk Yogurt Alternative Container, 5.3 oz",1.66,5.3,Walmart,0.313207547,17,FALSE
+"Silk Dairy Free, Vanilla Plant Based, Soy Milk Yogurt Alternative Container, 5.3 oz",1.66,5.3,Walmart,0.313207547,17,FALSE
+Silk Unsweetened Vanilla Dairy Free Vegan Almond Milk Yogurt Alternative Tub,6.29,5.3,Kroger,1.186792453,17,FALSE
+Silk Cultured Soy Vanilla Dairy Free Yogurt Alternative 5.3oz (PACK OF 8),53.16,42.4,Walmart,1.253773585,17,FALSE
+Silk Cultured Soy Peach And Mango Yogurt Alternative 5.3oz (PACK OF 8),55.95,42.4,Walmart,1.319575472,17,FALSE
+"(4 pack) Daiya Dairy Free Gluten Free Cheddar Cheese Sauce, Vegan, 14.2 oz (Shelf-Stable)",23.88,56.8,Walmart,0.420422535,18,TRUE
+"Daiya Dairy Free Gluten Free Cheddar Cheese Sauce, Vegan, 14.2 oz (Shelf-Stable)",5.97,14.2,Walmart,0.420422535,18,FALSE
+Babybel® Plant-Based Vegan Original Snack Cheese,4,7.1,Kroger,0.563380282,18,FALSE
+Daiya™ Dairy-Free Plant-Based Mozzarella Cheese Shreds,4.49,7.126984127,Kroger,0.63,18,FALSE
+"Babybel® Plant-Based Vegan Snack Cheese Alternative, White Cheddar",4,6.349206349,Kroger,0.63,18,FALSE
+Daiya™ Dairy Free Cheddar Cheese Shreds,4.49,7.1,Kroger,0.632394366,18,FALSE
+Daiya™ Dairy Free American Sliced Cheese,4.49,6,Kroger,0.748333333,18,FALSE
+"Daiya Dairy Free Gluten Free Cheddar Cheese Sauce, Vegan, 14.2 oz (Shelf-Stable)",12.35,14.2,Walmart,0.86971831,18,FALSE
+Daiya™ Dairy Free Cheddar Sliced Cheese,4.49,4.726315789,Kroger,0.95,18,FALSE
+"Daiya Cheddar Cutting Board Cheese Shred, 7.1 Ounce -- 12 per case.",110.86,85.2,Walmart,1.301173709,18,FALSE
+"Daiya Cheddar Style Cheese Slice, 7.8 Ounce -- 8 per case",86.09,62.4,Walmart,1.379647436,18,FALSE
+Prego® Traditional Pasta Sauce,4.79,67,Kroger,0.071492537,19,TRUE
+"Prego Traditional Pasta Sauce, 67 oz Jar",5.36,67,Walmart,0.08,19,FALSE
+"Prego Traditional Pasta Sauce, 45 oz Jar",4.23,45,Walmart,0.094,19,FALSE
+"Prego Traditional Pasta Sauce, 24 oz Jar",2.48,24,Walmart,0.103333333,19,FALSE
+"Prego Traditional Lower Sodium Pasta Sauce, 23.5 oz Jar",2.48,23.5,Walmart,0.105531915,19,FALSE
+Prego® Traditional Pasta Sauce,2.79,23.25,Kroger,0.12,19,FALSE
+"Prego Traditional Pasta Sauce, 14 oz Jar",1.93,14,Walmart,0.137857143,19,FALSE
+Prego® Traditional Pasta Sauce Value Size,6.29,24,Kroger,0.262083333,19,FALSE
+Kroger® Dark Red Kidney Beans,1,15.5,Kroger,0.064516129,20,TRUE
+"Great Value Dark Red Kidney Beans, 15.5 oz",0.86,15.5,Walmart,0.055483871,20,FALSE
+"Great Value Light Red Kidney Beans, 15.5 oz",0.86,15.5,Walmart,0.055483871,20,FALSE
+Goya® Red Kidney Beans,1.59,26.5,Kroger,0.06,20,FALSE
+Simple Truth Organic® Dark Red Kidney Beans,1,15.5,Kroger,0.064516129,20,FALSE
+"Great Value Light Red Kidney Beans, 1 lb",1.22,16,Walmart,0.07625,20,FALSE
+"Bush's Light Red Kidney Beans, Canned Dark Red Kidney Beans, 16 oz Can",1.28,16,Walmart,0.08,20,FALSE
+Goya® Red Kidney Beans,2.49,24.9,Kroger,0.1,20,FALSE
+Sun Vista® Pinto Beans,1.69,15.5,Kroger,0.109032258,20,FALSE
+Kroger® Great Northern Beans,1,21.7,Kroger,0.046082949,21,TRUE
+"Great Value Great Northern Beans, 15.5 oz",0.86,15.5,Walmart,0.055483871,21,FALSE
+"(12 pack) Great Value Great Northern Beans, 15.5 oz",10.62,186,Walmart,0.057096774,21,FALSE
+Bush's Great Northern Beans 15.8 oz,1.49,24.83333333,Kroger,0.06,21,FALSE
+"Great Value Great Northern Beans, 32 oz",2.26,32,Walmart,0.070625,21,FALSE
+"(3 pack) Great Value Great Northern Beans, 32 oz",6.78,96,Walmart,0.070625,21,FALSE
+Organic Low Sodium Dark Red Kidney Beans - 15oz - Good & Gather™,1.19,15,Target,0.079333333,21,FALSE
+"Bush's Great Northern Beans, Canned Beans, 15.8 oz",1.28,15.8,Walmart,0.081012658,21,FALSE
+Bush's Dark Red Kidney Beans - 16oz,1.39,16,Target,0.086875,21,FALSE
+Bush's Reduced Sodium Dark Red Kidney Beans - 16oz,1.39,16,Target,0.086875,21,FALSE
+Kroger® Great Northern Beans,2.19,24.33333333,Kroger,0.09,21,FALSE
+"Great Value Great Northern Beans, 1 lb",1.87,16,Walmart,0.116875,21,FALSE
+Bush's Kidney Beans in Mild Chili Sauce - 16oz,1.99,16,Target,0.124375,21,FALSE
+Randall® Fully Cooked Deluxe Great Northern Beans Jar,4.99,15.8,Kroger,0.315822785,21,FALSE
+"Great Value Long Grain Enriched Rice, 20 lb",11.14,320,Walmart,0.0348125,22,TRUE
+"Ben's Original Original Recipe Long Grain Rice & Wild Flavored Rice, 6 oz Box",2.99,74.75,Kroger,0.04,22,FALSE
+"Great Value Long Grain Enriched Rice, 5 lbs",3.34,80,Walmart,0.04175,22,FALSE
+"Great Value Natural Brown Long Grain Rice, 32 oz",1.64,32,Walmart,0.05125,22,FALSE
+"Great Value Long Grain Enriched Rice, 32 oz",1.77,32,Walmart,0.0553125,22,FALSE
+"Great Value Long Grain Enriched Rice, 16 oz",0.92,16,Walmart,0.0575,22,FALSE
+Kroger® Long Grain Rice,3.59,59.83333333,Kroger,0.06,22,FALSE
+Mahatma Gluten-Free Extra Long Grain White Rice,2.99,32,Kroger,0.0934375,22,FALSE
+"Mahatma Jasmine Thai Fragrant Long Grain Rice, Gluten Free, 32 oz (2 lbs) (907 Grams)",3.22,32,Walmart,0.100625,22,FALSE
+Rice-A-Roni® Long Grain & Wild Rice,1.5,4.285714286,Kroger,0.35,22,FALSE
+Kroger® Enriched Long Grain White Rice,1.89,4.3,Kroger,0.439534884,22,FALSE
+Zatarain's® Long Grain Rice,3.49,5,Kroger,0.698,22,FALSE
+"Great Value Italian Seasoning, 2 oz",1.97,2,Walmart,0.985,23,TRUE
+"Good Seasons Italian Dressing & Recipe Seasoning Mix, 4 Ct Packets, Casein Free",4.98,4,Walmart,1.245,23,FALSE
+"Great Value Italian Seasoning, 0.95 oz",1.24,0.95,Walmart,1.305263158,23,FALSE
+"McCormick PERFECT PINCH Italian Seasoning, 2.25 oz Bottle",7.22,2.25,Walmart,3.208888889,23,FALSE
+"McCormick PERFECT PINCH Kosher Italian Seasoning, 1.31 oz Bottle",4.68,1.31,Walmart,3.572519084,23,FALSE
+"Great Value Organic Italian Seasoning, 0.6 oz",4.36,0.6,Walmart,7.266666667,23,FALSE
+"Sam's Cola Cherry Soda, 2 Liter Bottle",2.74,67.6,Walmart,0.040532544,24,TRUE
+"Coca-Cola Cherry Soda Pop, 2 Liter Bottle",2.74,67.6,Walmart,0.040532544,24,FALSE
+"Coca-Cola Cherry Soda Pop, 12 fl oz, 12 Pack Cans",7.88,144,Walmart,0.054722222,24,FALSE
+"Coca-Cola Zero Sugar Cherry Soda Pop, 12 fl oz, 12 Pack Cans",7.88,144,Walmart,0.054722222,24,FALSE
+"Coca-Cola Cherry Soda Pop, 16.9 fl oz, 6 Pack Bottles",6.99,101.4,Walmart,0.068934911,24,FALSE
+"Coca-Cola Cherry Soda Pop, 20 fl oz Bottle",2.38,20,Walmart,0.119,24,FALSE
+Garlic Powder - 3.12oz - Good & Gather™,0.99,3.12,Target,0.317307692,24,FALSE
+Onion Powder - 2.62oz - Good & Gather™,0.99,2.62,Target,0.377862595,24,FALSE
+Ground Italian Seasoning - 0.75oz - Good & Gather™,0.99,0.75,Target,1.32,23,FALSE
+Coca-Cola Cherry Soda - 12pk/12 fl oz Cans,6.59,144,Target,0.045763889,24,FALSE
+"Great Value Pure Granulated Sugar, 25 lb",19.97,400,Walmart,0.049925,25,TRUE
+Smart Way™ Granulated Sugar,3.19,63.8,Kroger,0.05,25,FALSE
+"Great Value Pure Granulated Sugar, 10 lb",8.46,160,Walmart,0.052875,25,FALSE
+"Great Value Pure Granulated Sugar, 4 lb",3.46,64,Walmart,0.0540625,25,FALSE
+"Domino Premium Pure Cane Granulated Sugar, 4 lb",4.46,64,Walmart,0.0696875,25,FALSE
+Smart Way™ Granulated Sugar,6.99,99.85714286,Kroger,0.07,25,FALSE
+"Great Value Sugar Cannister, 20 oz",2.12,20,Walmart,0.106,25,FALSE
+"Domino Premium Pure Cane Granulated Sugar, 1 lb Box",1.72,16,Walmart,0.1075,25,FALSE
+Kroger® Pure Cane Granulated Sugar,4.39,36.58333333,Kroger,0.12,25,FALSE
+Imperial Pure Granulated Cane Sugar,3.29,3.5,Kroger,0.94,25,FALSE
+Domino Pure Cane Ultrafine Granulated Baker's Sugar Tub,6.49,4,Kroger,1.6225,25,FALSE
+"Great Value All Purpose Flour, 10 lb Bag",4.57,160,Walmart,0.0285625,26,TRUE
+"Great Value All-Purpose Enriched Flour, 5 lb Bag",2.38,80,Walmart,0.02975,26,FALSE
+"Great Value All-Purpose Unbleached Flour, 5 lb Bag",2.43,80,Walmart,0.030375,26,FALSE
+Unbleached All Purpose Flour - 5lbs - Good & Gather™,2.59,80,Target,0.032375,26,FALSE
+"King Arthur, 100% Organic All-Purpose Flour Unbleached, Non-GMO Project Verified, No Preservatives",8.99,224.75,Kroger,0.04,26,FALSE
+Great Value All Purpose Enriched Flour 2LB Bag,1.32,32,Walmart,0.04125,26,FALSE
+"Gold Medal All Purpose Flour, Baking Flour, 5 lb Bag",3.97,80,Walmart,0.049625,26,FALSE
+Gold Medal All Purpose Flour,4.99,83.16666667,Kroger,0.06,26,FALSE
+"King Arthur Baking Company Non-GMO Project Verified, Certified Kosher Unbleached All Purpose Flour, 5 lb Bag",5.24,80,Walmart,0.0655,26,FALSE
+Bob's Red Mill All-Purpose White Unbleached Flour,5.29,80,Kroger,0.066125,26,FALSE
+King Arthur Flour Unbleached All-Purpose Flour - 5lbs,5.59,80,Target,0.069875,26,FALSE
+Kroger® Unbleached Enriched All Purpose Flour,3.29,47,Kroger,0.07,26,FALSE
+Bob's Red Mill All-Purpose Baking Flour Gluten Free - Case of 4/44 oz,60.49,176.00,Target,0.343693182,26,FALSE
+Kroger® Bleached All Purpose Flour,2.69,5,Kroger,0.538,26,FALSE
+Gold Medal All Purpose Flour,8.99,5,Kroger,1.798,26,FALSE
+"Molina Mexican Vanilla Blend, 8.3 FL OZ",1.84,8.3,Walmart,0.221686747,27,TRUE
+"Baker's Kosher Imitation Vanilla Flavor, 8.0 fl oz Bottle",1.92,8,Walmart,0.24,27,FALSE
+Kroger® Clear Imitation Vanilla Extract,1.99,4,Kroger,0.4975,27,FALSE
+Private Selection® Pure Vanilla Extract,8.99,11.98666667,Kroger,0.75,27,FALSE
+"Watkins Original Gourmet Baking Vanilla, 8 fl oz",8.98,8,Walmart,1.1225,27,FALSE
+"Great Value Pure Vanilla Extract, 2 fl oz",5.72,2,Walmart,2.86,27,FALSE
+Private Selection® Pure Vanilla Extract,5.99,2,Kroger,2.995,27,FALSE
+Spice Islands Pure Vanilla Extract,5.99,2,Kroger,2.995,27,FALSE
+Kroger® Imitation Vanilla Flavor,2.99,0.996666667,Kroger,3,27,FALSE
+"McCormick Non-GMO Gluten Free Pure Vanilla Extract, 2.0 fl oz Box",6.97,2,Walmart,3.485,27,FALSE
+"Great Value Pure Vanilla Extract, 1 fl oz",3.94,1,Walmart,3.94,27,FALSE
+McCormick Pure Vanilla Extract,8.99,1.997777778,Kroger,4.5,27,FALSE
+Domino Premium Cane Powdered Sugar,3.99,66.5,Kroger,0.06,28,TRUE
+"(3 pack) Great Value Confectioners Powdered Sugar, 32 oz",6.66,96,Walmart,0.069375,28,FALSE
+"Great Value Confectioners Powdered Sugar, 32 oz",2.22,32,Walmart,0.069375,28,FALSE
+Kroger® Confectioners Powdered Sugar,2,24,Kroger,0.083333333,28,FALSE
+"Domino Confectioners Sugar, Pure Cane, 10x Powdered, Allergen-Free, 4 lb (1.81 kg), Plastic Bag",5.54,64,Walmart,0.0865625,28,FALSE
+"Domino Confectioners Sugar, Pure Cane 10-x Powdered, 2lb (907g), Plastic Bag",3.57,32,Walmart,0.1115625,28,FALSE
+"(6 pack) Domino Confectioners Sugar, Pure Cane 10-x Powdered, 2lb (907g), Plastic Bag",21.42,192,Walmart,0.1115625,28,FALSE
+Domino Powdered Premium Cane Sugar,3.59,32,Food City,0.1121875,28,FALSE
+"Food Club Confectioners Sugar, With Cornstarch, Pure Cane",3.59,32,Food City,0.1121875,28,FALSE
+Simple Truth Organic® Powdered Sugar,3.99,33.25,Kroger,0.12,28,FALSE
+Splenda® Stevia Sweetener Packets,5.79,32,Kroger,0.1809375,28,FALSE
+"Domino Sugar, Powdered, Premium Cane",3.99,16,Food City,0.249375,28,FALSE
+"Truvia Cane Sugar Blend, Mix of Stevia Sweetener and Cane Sugar 24 oz Bag",5.99,23.96,Kroger,0.25,28,FALSE
+Truvia Stevia Leaf Confectioners Sweetener,3.59,12,Food City,0.299166667,28,FALSE
+Full Circle Market Powdered Sugar,6.99,16,Food City,0.436875,28,FALSE
+Wholesome Sweeteners Organic Powdered Sugar 1 Pound,9.68,16,Walmart,0.605,28,FALSE
+Simple Truth Organic® Light Brown Sugar,3.79,2,Kroger,1.895,28,FALSE
+Crystal Light Sugar Free Raspberry Ice Powdered Drink Mix 10 Ct.,3.59,0.6,Food City,5.983333333,28,FALSE
+"Great Value Canola Oil, 1 gal",9.98,128,Walmart,0.07796875,29,TRUE
+"Great Value Canola Oil, 48 fl oz",4.12,48,Walmart,0.085833333,29,FALSE
+Food Club Canola Oil,10.99,128,Food City,0.085859375,29,FALSE
+That's Smart! Canola Oil,3.49,40,Food City,0.08725,29,FALSE
+Crisco Pure Canola Oil,12.99,128,Food City,0.101484375,29,FALSE
+Food Club Canola Oil,3.29,32,Food City,0.1028125,29,FALSE
+"Crisco Pure Canola Oil, 40 fl oz",4.57,40,Walmart,0.11425,29,FALSE
+Food Club Canola Oil,4.79,40,Food City,0.11975,29,FALSE
+"Wesson Pure & Cholesterol Free Canola Oil, 24 fl oz",2.88,24,Walmart,0.12,29,FALSE
+Wesson Canola Oil,5.49,40,Food City,0.13725,29,FALSE
+"Crisco Pure Canola Oil, 16 fl oz",2.97,16,Walmart,0.185625,29,FALSE
+"Great Value Canola Oil Cooking Spray, 8 oz",2.52,8,Walmart,0.315,29,FALSE
+"(4 pack) Great Value Light Brown Sugar, 32 oz",8.88,128,Walmart,0.069375,30,TRUE
+"Great Value Light Brown Sugar, 32 oz",2.22,32,Walmart,0.069375,30,FALSE
+Domino Premium Pure Cane Light Brown Sugar,2.99,32,Food City,0.0934375,30,FALSE
+Crisco Canola Oil,4.79,48,Target,0.099791667,30,FALSE
+Domino Premium Pure Cane Dark Brown Sugar 2lb. Zipper-pak,3.67,32,Walmart,0.1146875,30,FALSE
+Domino Premium Pure Cane Light Brown Sugar 2 lb. Zipper-Pak,3.67,32,Walmart,0.1146875,30,FALSE
+Full Circle Light Brown Pure Sugar,4.29,24,Food City,0.17875,30,FALSE
+"Imperial Sugar Dark Brown Sugar, 32 Oz",6.85,32,Walmart,0.2140625,30,FALSE
+Domino Premium Pure Cane Dark Brown Sugar,6.99,32,Food City,0.2184375,30,FALSE
+"Food Club Sugar, Pure Cane, Light Brown",6.99,32,Food City,0.2184375,30,FALSE
+Canola Oil - Good & Gather™,10.59,48,Target,0.220625,30,FALSE
+"Domino Sugar, Dark Brown, Premium Pure Cane",5.79,16,Food City,0.361875,30,FALSE
+"Domino Sugar, Premium Pure Cane, Light Brown",6.49,16,Food City,0.405625,30,FALSE
+Nonstick Canola Cooking Spray - Good & Gather™,2.69,5,Target,0.538,30,FALSE
+"McCormick Maple Brown Sugar Finishing Sugar, 3.09 oz Bottle",11.97,3.09,Walmart,3.873786408,30,FALSE
+Dark Brown Sugar - 2lbs - Good & Gather™,2.29,32,Target,0.0715625,30,FALSE
+Light Brown Sugar - 2lbs - Good & Gather™,2.29,32,Target,0.0715625,30,FALSE
+Organic Light Brown Sugar -  24oz - Good & Gather™,3.69,24,Target,0.15375,30,FALSE
+"Great Value Kosher Ground Cinnamon, 2.5 oz",1.32,2.5,Walmart,0.528,31,TRUE
+"Great Value Ground Cinnamon, 18 oz",11.18,18,Walmart,0.621111111,31,FALSE
+Smart Way™ Ground Cinnamon,1.25,2,Kroger,0.625,31,FALSE
+Private Selection® Ground Cinnamon Shaker,3.49,5.453125,Kroger,0.64,31,FALSE
+"McCormick Kosher Ground Cinnamon, 7.12 oz Bottle",6.46,7.12,Walmart,0.907303371,31,FALSE
+Food Club Ground Cinnamon,3.99,4.12,Food City,0.968446602,31,FALSE
+Food Club Ground Cinnamon,2.49,2.37,Food City,1.050632911,31,FALSE
+Food Club Ground Saigon Cinnamon,5.99,5.2,Food City,1.151923077,31,FALSE
+"McCormick Kosher Ground Cinnamon, 2.37 oz Bottle",2.77,2.37,Walmart,1.168776371,31,FALSE
+Sauer's Value Size Ground Cinnamon,12.49,8.5,Food City,1.469411765,31,FALSE
+Kroger® Ground Cinnamon Shaker,3.99,1.855813953,Kroger,2.15,31,FALSE
+Sauer's Ground Cinnamon,5.99,2.25,Food City,2.662222222,31,FALSE
+"Great Value Organic Ground Cinnamon, 1.5 oz",4.36,1.5,Walmart,2.906666667,31,FALSE
+Kroger® Ground Cinnamon Shaker,4.99,1.62,Kroger,3.080246914,31,FALSE
+Badia Cinnamon,1.99,0.5,Food City,3.98,31,FALSE
+McCormick All Natural Pure Vanilla Extract,16.99,4,Kroger,4.2475,31,FALSE
+"Great Value Cinnamon Sticks, 0.75 oz",3.22,0.75,Walmart,4.293333333,31,FALSE
+Kroger® Pure Baking Soda,0.99,8.1,Kroger,0.122222222,32,TRUE
+"Clabber Girl, Gluten-Free, Double Acting Baking Powder, 22 oz",4.97,22,Walmart,0.225909091,32,FALSE
+"Great Value Double Acting Baking Powder, 8.1 oz",1.98,8.1,Walmart,0.244444444,32,FALSE
+"Clabber Girl, Gluten-Free, Double Acting Baking Powder, 8.1 oz",2.47,8.1,Walmart,0.304938272,32,FALSE
+"Royal Baking Powder Double Acting, 8.1 oz",2.48,8.1,Walmart,0.30617284,32,FALSE
+Food Club Double Acting Baking Powder,2.49,8.1,Food City,0.307407407,32,FALSE
+Kroger® Baking Powder,2.49,8.1,Kroger,0.307407407,32,FALSE
+Rumford Baking Powder - Gluten Free,3.79,12.22580645,Kroger,0.31,32,FALSE
+"Clabber Girl Baking Powder, Double Acting",2.99,8.1,Food City,0.369135802,32,FALSE
+"Clabber Girl Baking Powder, Gluten-Free",2.99,8.081081081,Kroger,0.37,32,FALSE
+Ground Cinnamon - 2.37oz - Good & Gather™,0.99,2.37,Target,0.417721519,32,FALSE
+Ground Cinnamon - 4.1oz - Good & Gather™,1.89,4.1,Target,0.46097561,32,FALSE
+ARM & HAMMER Pure Baking Soda,1.79,3.808510638,Kroger,0.47,32,FALSE
+Food Club Unsweetened Baking Cocoa,4.59,8,Food City,0.57375,32,FALSE
+"Bob's Red Mill, Gluten Free, Double Acting Baking Powder, 14 oz Plastic Pouch",10,14,Walmart,0.714285714,32,FALSE
+"Rumford, Non-GMO, Gluten-Free, Double Acting Baking Powder, 8.1 oz",6.2,8.1,Walmart,0.765432099,32,FALSE
+Simple Truth Organic™ Dutched Unsweetened Cocoa Powder,6.99,8.1,Kroger,0.862962963,32,FALSE
+"Rumford Baking Powder, Reduced Sodium CONTAINER",3.59,4,Food City,0.8975,32,FALSE
+"Baker's Premium Bittersweet Chocolate Baking Bar, 66% Cacao",4.29,4,Food City,1.0725,32,FALSE
+Wilton Meringue Powder,9.99,4,Food City,2.4975,32,FALSE
+Organic Ground Cinnamon 1.5 oz Good & Gather,5.59,1.5,Target,3.726666667,32,FALSE
+"Great Value Baking Soda, 4 lb",3.24,64,Walmart,0.050625,33,TRUE
+Food Club Pure Baking Soda,3.29,64,Food City,0.05140625,33,FALSE
+"ARM & HAMMER Pure Baking Soda & All Purpose Cleaner for Baking & Deodorizing, 4 lb Box",3.34,64,Walmart,0.0521875,33,FALSE
+"Great Value Baking Soda, 1 lb",0.92,16,Walmart,0.0575,33,FALSE
+Kroger® Pure Baking Soda,0.99,16.5,Kroger,0.06,33,FALSE
+Baking Soda - 16oz - Good & Gather™,0.99,16,Target,0.061875,33,FALSE
+Food Club Pure Baking Soda,0.99,16,Food City,0.061875,33,FALSE
+"ARM & HAMMER Pure Baking Soda, For Baking, Cleaning & Deodorizing, 3 lb Resealable Bag",3.42,48,Walmart,0.07125,33,FALSE
+ARM & HAMMER Pure Baking Soda Refillable Shaker,2.49,31.125,Kroger,0.08,33,FALSE
+"ARM & HAMMER Pure Baking Soda, For Baking, Cleaning & Deodorizing, 1 lb Box",1.47,16,Walmart,0.091875,33,FALSE
+"ARM & HAMMER Pure Baking Soda, For Baking, Cleaning & Deodorizing, 8 oz Box",0.87,8,Walmart,0.10875,33,FALSE
+ARM & HAMMER Pure Baking Soda,2.49,22.63636364,Kroger,0.11,33,FALSE
+ARM & HAMMER Pure Baking Soda,1.79,16,Kroger,0.111875,33,FALSE
+Arm & Hammer Fridge-n-freezer Baking Soda,1.59,14,Food City,0.113571429,33,FALSE
+Arm & Hammer Pure Baking Soda,0.99,8,Food City,0.12375,33,FALSE
+"Arm & Hammer Baking Soda, Pure",2.69,12,Food City,0.224166667,33,FALSE
+Double Acting Baking Powder - 8.1oz - Good & Gather™,1.99,8.1,Target,0.245679012,33,FALSE
+Clabber Girl Gluten Free Double Acting Baking Powder - 8.1oz,2.79,8.1,Target,0.344444444,33,FALSE
+Kroger® Baking Powder,2.49,2,Kroger,1.245,33,FALSE
+ARM & HAMMER Fridge-N-Freezer Baking Soda Odor Absorber,1.49,1,Kroger,1.49,33,FALSE
+"Imperial Vegetable Oil Spread, 1 lb Box 4 Sticks (Refrigerated)",1.24,16,Walmart,0.0775,34,TRUE
+Imperial Vegetable Oil Spread Sticks 16 oz,1.29,16.125,Kroger,0.08,34,FALSE
+Imperial Spread 3 Lb,3.97,48,Walmart,0.082708333,34,FALSE
+"Imperial Vegetable Oil Spread, 45 oz Tub (Refrigerated)",3.97,45,Walmart,0.088222222,34,FALSE
+Imperial Vegetable Oil Spread,4.29,45,Food City,0.095333333,34,FALSE
+Imperial Vegetable Oil Spread,1.59,16,Food City,0.099375,34,FALSE
+Blue Bonnet Vegetable Oil Sticks,1.25,8.333333333,Kroger,0.15,34,FALSE
+Parkay Original Margarine Spread Alternative,3.29,15,Kroger,0.219333333,34,FALSE
+Blue Bonnet Original Vegetable Oil Spread,3.99,15,Kroger,0.266,34,FALSE
+"Imperial Regular 65 Percent Vegetable Oil Spread, 16 Ounce - 24 per case.",113.34,384,Walmart,0.29515625,34,FALSE
+"Imperial 39 Percent Vegetable Oil Spread , 45 Ounce -- 6 per case.",84.02,270,Walmart,0.311185185,34,FALSE
+Imperial Vegetable Oil Spread Tub,2.29,4,Kroger,0.5725,34,FALSE
+"OREO Double Stuf Chocolate Sandwich Cookies, Party Size, 24.95 oz",5.98,24.95,Walmart,0.239679359,35,TRUE
+"OREO Double Stuf Golden Sandwich Cookies, Party Size, 24.95 oz",5.98,24.95,Walmart,0.239679359,35,FALSE
+"OREO Double Stuf Chocolate Sandwich Cookies, Family Size, 18.71 oz",4.97,18.71,Walmart,0.265633351,35,FALSE
+"(3 pack) OREO Double Stuf Chocolate Sandwich Cookies, Family Size, 18.71 oz",14.91,56.13,Walmart,0.265633351,35,FALSE
+"OREO Double Stuf Chocolate Sandwich Cookies, Party Size, 24.95 Oz",6.99,24.95,Food City,0.280160321,35,FALSE
+Oreo Party Size Double Stuf Golden Sandwich Cookies,6.99,24.95,Food City,0.280160321,35,FALSE
+"OREO Double Stuf Chocolate Sandwich Cookies, 14.03 oz",3.96,14.03,Walmart,0.282252316,35,FALSE
+"OREO Double Stuf Golden Sandwich Cookies, 14.03 oz",3.96,14.03,Walmart,0.282252316,35,FALSE
+"OREO Double Stuf Chocolate Sandwich Cookies, Family Size, 18.71 Oz",5.39,18.71,Food City,0.28808124,35,FALSE
+Oreo Family Size Double Stuf Golden Sandwich Cookies,5.39,18.71,Food City,0.28808124,35,FALSE
+"OREO Double Stuf Chocolate Sandwich Cookies, 14.03 Oz",4.69,14.03,Food City,0.334283678,35,FALSE
+Oreo Double Stuf Golden Sandwich Cookies,4.69,14.03,Food City,0.334283678,35,FALSE
+Food Club Original Non-dairy Coffee Creamer,6.99,35.3,Food City,0.198016997,36,TRUE
+Food Club Original Non-dairy Coffee Creamer,4.99,22,Food City,0.226818182,36,FALSE
+Food Club Original Non-dairy Coffee Creamer,3.79,16,Food City,0.236875,36,FALSE
+Food Club Original Non-dairy Coffee Creamer,2.79,11,Food City,0.253636364,36,FALSE
+Lay's Original Potato Crisps,1.99,5.75,Food City,0.346086957,37,TRUE
+"Lay's Classic Potato Chips, Party Size, 13 oz Bag",5.44,13,Walmart,0.418461538,37,FALSE
+"Lay's Wavy Original Potato Chips, Party Size, 13 oz Bag",5.44,13,Walmart,0.418461538,37,FALSE
+"Lay's Classic Potato Chips, 8 oz, Plastic Bag",3.5,8,Walmart,0.4375,37,FALSE
+Lay's Party Size Original Potato Chips Party Size bag,5.69,13,Food City,0.437692308,37,FALSE
+"Lay's Wavy Potato Chips, Original Flavor, 7.75 oz Bag",3.5,7.75,Walmart,0.451612903,37,FALSE
+"Lay's Classic Potato Chips Snack Chips, 1 Ounce Bag",0.48,1,Walmart,0.48,37,FALSE
+Lay's Original Kettle Cooked Potato Chips,3.99,8,Food City,0.49875,37,FALSE
+Lay's Original Wavy Potato Chips,3.99,7.75,Food City,0.51483871,37,FALSE
+"Lay's Classic Potato Snack Chips, 1 oz Bags, 10 Count Multipack",5.97,10,Walmart,0.597,37,FALSE
+Lay's Party Size Original Baked 65% Less Fat Potato Crisps,6.49,9.25,Food City,0.701621622,37,FALSE
+Food Club Graham Cracker Crumbs,2.99,13.5,Food City,0.221481481,38,TRUE
+"Great Value Buttery Smooth Club Crackers, 13.7 oz",3.22,13.7,Walmart,0.235036496,38,FALSE
+Club Original Crackers,3.79,13.7,Food City,0.276642336,38,FALSE
+RITZ Fresh Stacks Original Crackers,7.79,26.86206897,Kroger,0.29,38,FALSE
+"Club Snack Stacks Original Crackers, Lunch Snacks, 9 Count",5.47,18.8,Walmart,0.290957447,38,FALSE
+"Club Original Crackers, Lunch Snacks, 13.7 oz",4.07,13.7,Walmart,0.297080292,38,FALSE
+"Club Snack Stacks Original Crackers, Lunch Snacks, 6 Count",3.57,12,Walmart,0.2975,38,FALSE
+Club Multifgrain Crackers,3.79,12.7,Food City,0.298425197,38,FALSE
+Club® Stacks Original Crackers,3.99,12.5,Kroger,0.3192,38,FALSE
+Club® Stacks Original Crackers,3.99,12.5,Kroger,0.3192,38,FALSE
+Club Reduced Fat Crackers,3.79,11.7,Food City,0.323931624,38,FALSE
+Club Minis Original Crackers,3.79,11,Food City,0.344545455,38,FALSE
+Club® Original Crackers,3.99,11.4,Kroger,0.35,38,FALSE
+Kroger® Country Club Crackers,3.29,9,Kroger,0.365555556,38,FALSE
+"Club Minis Original Crackers, Lunch Snacks, 11 oz",4.07,11,Walmart,0.37,38,FALSE
+RITZ Toasted Chips Original Crackers,6.49,13.7,Kroger,0.473722628,38,FALSE

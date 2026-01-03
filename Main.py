@@ -22,9 +22,90 @@ baking = ["granulated sugar", "All-purpose flour", "vanilla", "powdered sugar",
           "imperial margarine"]
 snacks = ["double-stuf oreos", "Phish food non-dairy oat", "original lays chips", "club crackers"]
 
+foods = fruit + veggies + meat + dairy + other + baking + snacks
 
-foods = fruit+veggies+meat+dairy+other+baking+snacks
+foods = ["Mott Applesauce Cinnamon", #0
+         "Hormel Black label Bacon fully cooked bacon",
+         "Baking Powder",
+         "Baking Soda",
+         "Banana", #4
+         "Basil",
+         "Blueberries",
+         "Broccoli",
+         "Brown Sugar",
+         "Imperial Margarine",
+         "Chunk Chicken Breast", #10
+         "Canned Diced Tomatoes",
+         "Dark Red Kidney Beans",
+         "Great Northern Beans",
+         "Carrots",
+         "Celery Stalks", #15
+         "Cherry Cokes",                                  
+         "Boneless chicken breasts",
+         "Enjoy life chocolate chips",
+         "cinnamon",
+         "club crackers", #20
+         "cocoa powder",
+         "corn on the cob",
+         "corn starch",
+         "dry basil",
+         "daiya cheese cheddar shreds", #25
+         "flour",
+         "Frozen banana slices",
+         "Frozen strawberries",
+         "Frozen corn",
+         "Gala Apples", #30
+         "Garlic",
+         "Granny Smith Apples",
+         "Green Bell Pepper",
+         "Green grapes",
+         "Quaker Grits", #35
+         "Ground Beef",
+         "Honey",
+         "Instant Pudding",
+         "Joy Oreos",
+         "Lays original chips", #40
+         "Romane Lettuce",
+         "Marinara Sauce",
+         "Silk soy milk",
+         "Quaker Oats",
+         "Canola Oil", #45
+         "Olive Oil",
+         "White Onion",
+         "Red Onion",
+         "Yellow Onion",
+         "Orange Bell Pepper", #50
+         "Tropicana Orange Juice",
+         "Oranges",
+         "Oreos", 
+         "Pineapple",
+         "Porkchop", #55
+         "Powdered Sugar",
+         "Purple grapes",
+         "Red Bell Pepper",
+         "White long grain rice",
+         "Russet Potatoes", #60
+         "Salt",
+         "Shortening",
+         "Soy whipping cream",
+         "Spinach",
+         "Pam spray", #65
+         "Strawberries",
+         "Welches Strawberry Jelly",
+         "Granulated Sugar",
+         "Tide Pods",
+         "Tomatoes", #70
+         "Tomato sauce",
+         "Vanilla Extract",
+         "Vegetable Broth",
+         "Vinegar",
+         "Watermelon", #75
+         "Active-Dry Yeast",
+         "Yellow Bell Pepper",
+         "Silk soy yogurt",
+         "Zucchini"] #79
 
+#foods = ["Silk soy yogurt"]
 #Blank arrays to be filled with product information
 products = []
 prices = []
@@ -34,7 +115,7 @@ prices_per_ounce = []
 categories = []
 
 time.sleep(2)
-'''
+"""
 food_city(foods, products, prices, ounces, sources, prices_per_ounce, categories)
 time.sleep(1)
 df = pd.DataFrame({ #Put into dataframe for saving as csv file
@@ -46,7 +127,7 @@ df = pd.DataFrame({ #Put into dataframe for saving as csv file
     'Categories': categories
 })
 df.to_csv('grocery store1.csv', index = False)
-'''
+
 target(foods, products, prices, ounces, sources, prices_per_ounce, categories)
 time.sleep(1)
 df = pd.DataFrame({ #Put into dataframe for saving as csv file
@@ -58,9 +139,16 @@ df = pd.DataFrame({ #Put into dataframe for saving as csv file
     'Categories': categories
 })
 df.to_csv('grocery store2.csv', index = False)
+"""
 
 kroger(foods, products, prices, ounces, sources, prices_per_ounce, categories)
-time.sleep(1)
+print("products:", len(products))
+print("prices:", len(prices))
+print("ounces:", len(ounces))
+print("sources:", len(sources))
+print("prices per ounces:", len(prices_per_ounce))
+print("categories:", len(categories))
+
 df = pd.DataFrame({ #Put into dataframe for saving as csv file
     'Product': products,
     'Price': prices,
@@ -69,8 +157,8 @@ df = pd.DataFrame({ #Put into dataframe for saving as csv file
     'Price per ounce': prices_per_ounce,
     'Categories': categories
 })
-df.to_csv('grocery store3.csv', index = False)
-
+df.to_csv('Kroger Results.csv', index = False)
+"""
 walmart(foods, products, prices, ounces, sources, prices_per_ounce, categories)
 
 print("products:", len(products))
@@ -88,4 +176,5 @@ df = pd.DataFrame({ #Put into dataframe for saving as csv file
     'Price per ounce': prices_per_ounce,
     'Categories': categories
 })
-df.to_csv('grocery store.csv', index = False)
+df.to_csv('Walmart Results Yogurt.csv', index = False)
+"""
