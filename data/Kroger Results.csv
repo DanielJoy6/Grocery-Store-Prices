@@ -17,7 +17,6 @@ ARM & HAMMER Pure Baking Soda Refillable Shaker,2.49,2,Kroger,1.245,3
 ARM & HAMMER Pure Baking Soda,2.49,22.63636364,Kroger,0.11,3
 ARM & HAMMER Pure Baking Soda,1.79,16,Kroger,0.111875,3
 ARM & HAMMER Fridge-N-Freezer Baking Soda Odor Absorber,1.59,1,Kroger,1.59,3
-Fresh Yellow Banana Peppers,1.94,0.648829431,Kroger,2.99,4
 Fresh Bunch of Organic Bananas 5-7 Bananas,1.58,2.106666667,Kroger,0.75,4
 Fresh Bunch of Bananas 5-7 Bananas,1.16,2.109090909,Kroger,0.55,4
 Kroger® Fresh Grape Tomatoes,2.99,10,Kroger,0.299,5
@@ -31,7 +30,7 @@ Fresh Blueberries - 18 OZ - Clamshell,4.29,18,Kroger,0.238333333,6
 Fresh Blueberries - 1 PT Clamshell,4.29,19.2,Kroger,0.2234375,6
 Kroger® Traditional Favorites Frozen Broccoli Florets,1.49,12,Kroger,0.124166667,7
 Broccoli Crowns,1.78,0.68,Kroger,2.617647059,7
-Broccoli Bunch,3.49,1.347490347,Kroger,2.59,7
+Broccoli Bunch,3.49,1.347490347,Kroger,2.590000001,7
 "Birds Eye Steamfresh Broccoli Florets, Frozen Vegetables",2.29,12,Kroger,0.190833333,7
 "Birds Eye Steamfresh Broccoli Cuts, Frozen Vegetables",1.49,12.41666667,Kroger,0.12,7
 Simple Truth Organic® Light Brown Sugar,3.99,23.47058824,Kroger,0.17,8
@@ -63,11 +62,11 @@ Simple Truth Organic™ Pinto Beans,4.29,27,Kroger,0.158888889,13
 Kroger® Red Beans,1,15,Kroger,0.066666667,13
 Bush's Pinto Beans 27 oz,2.69,26.9,Kroger,0.1,13
 Bush's Best® Reduced Sodium Black Beans,1.25,4,Kroger,0.3125,13
-Kroger® Whole Carrots Bag,2.29,32,Kroger,1.145,14
-Jumbo Yellow Onions,0.6,0.504201681,Kroger,1.19,14
-Jumbo Sweet Onions,0.75,0.503355705,Kroger,1.49,14
+Kroger® Whole Carrots Bag,2.29,32,Kroger,0.0715625,14
+Jumbo Yellow Onions,0.6,0.504201681,Kroger,1.189999999,14
+Jumbo Sweet Onions,0.75,0.503355705,Kroger,1.489999999,14
 Celery,1.49,1.5,Kroger,0.993333333,14
-Broccoli Crowns,1.78,0.68,Kroger,2.59,14
+Broccoli Crowns,1.78,0.68,Kroger,2.617647059,14
 Private Selection® Long Celery Sticks,3.29,16,Kroger,0.205625,15
 Organic Celery,2.49,1.5,Kroger,1.66,15
 Kroger® Cut & Peeled Carrot Sticks,1.99,12,Kroger,0.165833333,15
@@ -116,7 +115,7 @@ Simple Truth Organic® Basil Leaves Shaker,3.99,0.5,Kroger,7.98,24
 Private Selection® Mediterranean Basil Leaves Shaker,4.49,0.969762419,Kroger,4.63,24
 Kroger® Parsley Flakes Shaker,1.99,0.5,Kroger,3.98,24
 Kroger® Oregano Leaves Shaker,1.99,0.43,Kroger,4.627906977,24
-Kroger® Oregano Leaves Shaker,1.99,0.221603563,Kroger,8.98,24
+Kroger® Oregano Leaves Shaker,1.99,0.221603563,Kroger,8.980000019,24
 Kroger® Basil Leaves Shaker,1.99,0.5,Kroger,3.98,24
 "Violife Just like Mexican Style Shreds Shredded Cheese, Dairy-Free Vegan",5.29,7.1,Kroger,0.745070423,25
 "Violife Just Like Cheddar Shreds Shredded Cheese, Dairy-Free Vegan",5.29,8.396825397,Kroger,0.63,25
@@ -141,8 +140,8 @@ Simple Truth Organic® Frozen Corn Whole Kernel Cut,2.59,25.9,Kroger,0.1,29
 Kroger® Traditional Favorites Frozen Sweet Corn BIG DEAL!,5.49,24.95454545,Kroger,0.22,29
 Kroger® Traditional Favorites Frozen Corn Super Sweet,1.25,12,Kroger,0.104166667,29
 Kroger® Traditional Favorites Frozen Corn Super Sweet,2.99,32,Kroger,0.0934375,29
-Organic Large Gala Apple – Each,1.12,0.449799197,Kroger,2.49,30
-Large Gala Apple - Each,0.75,0.503355705,Kroger,1.49,30
+Organic Large Gala Apple – Each,1.12,0.449799197,Kroger,2.489999999,30
+Large Gala Apple - Each,0.75,0.503355705,Kroger,1.489999999,30
 Kroger® Gala Apples – 3 Pound Bag,3.99,3,Kroger,1.33,30
 Crunch Pak® Grab 'N Go Organic Sweet Apple Slices,4.49,5,Kroger,0.898,30
 Spice World® Fresh Diced Garlic,3.49,8,Kroger,0.43625,31
@@ -150,12 +149,12 @@ Spice World Organic Minced Garlic 8 oz,4.49,8.98,Kroger,0.5,31
 Spice World Minced Garlic 8 oz,3.99,4.5,Kroger,0.886666667,31
 Spice World Minced Garlic 4.5 oz,2.49,4.527272727,Kroger,0.55,31
 Small Granny Smith Apple - Each,0.67,9,Kroger,0.074444444,32
-Large Granny Smith Apple - Each,1,0.502512563,Kroger,1.99,32
+Large Granny Smith Apple - Each,1,0.502512563,Kroger,1.989999999,32
 Kroger® Granny Smith Apples – 5 Pound Bag,5,5,Kroger,1,32
 Kroger® Granny Smith Apples – 3 Pound Bag,3.99,3,Kroger,1.33,32
 Crunch Pak® Grab 'N Go Organic Sweet Apple Slices,4.49,5,Kroger,0.898,32
 Fresh Yellow Bell Pepper,1.59,5,Kroger,0.318,33
-Fresh Yellow Banana Peppers,1.94,0.648829431,Kroger,2.99,33
+Fresh Yellow Banana Peppers,1.94,0.648829431,Kroger,2.990000002,33
 Fresh Red Hothouse Bell Pepper,1.59,5,Kroger,0.318,33
 Fresh Red Bell Pepper,1.39,5,Kroger,0.278,33
 Fresh Orange Bell Pepper,1.59,5,Kroger,0.318,33
@@ -174,13 +173,13 @@ Quaker® Instant Cheese Grits,3.5,29.16666667,Kroger,0.12,35
 Quaker® Butter Instant Grits,3.5,10,Kroger,0.35,35
 Laura’s Lean Beef® 96% Lean All Natural Ground Beef,10.99,16,Kroger,0.686875,36
 Laura’s Lean Beef® 92% Lean All Natural Ground Beef,9.99,16,Kroger,0.624375,36
-Kroger® 80/20 Ground Beef Tray 1 LB,3.99,16,Kroger,3.99,36
-Kroger® 80/20 Ground Beef Roll 3 LB,18.99,48,Kroger,6.33,36
-Kroger® 80/20 Ground Beef Roll 1 LB,6.99,16,Kroger,6.99,36
+Kroger® 80/20 Ground Beef Tray 1 LB,3.99,16,Kroger,0.249375,36
+Kroger® 80/20 Ground Beef Roll 3 LB,18.99,48,Kroger,0.395625,36
+Kroger® 80/20 Ground Beef Roll 1 LB,6.99,16,Kroger,0.436875,36
 Kroger® 80/20 Ground Beef Patties,12,30.4,Kroger,0.394736842,36
 Smart Way Honey,5.99,24,Kroger,0.249583333,37
 Simple Truth Organic Honey,4.69,12,Kroger,0.390833333,37
-Local Hive 100% US Honey,13.99,24,Kroger,0.58,37
+Local Hive 100% US Honey,13.99,24,Kroger,0.582916667,37
 Kroger Clover Honey Bear,3.99,12,Kroger,0.3325,37
 "Jell-O White Chocolate Instant Pudding & Pie Filling Mix, Box",1.99,5.9,Kroger,0.337288136,38
 Jell-O Vanilla Artificially Flavored Instant Pudding & Pie Filling Mix Box,1.99,3.372881356,Kroger,0.59,38
@@ -202,7 +201,7 @@ Private Selection™ Artisan Lettuce,3.99,17,Kroger,0.234705882,41
 Kroger® Romaine Lettuce Hearts BIG Deal!,6,36,Kroger,0.166666667,41
 80 Acres Farms® Power Crunch Salad Blend Mix with Lettuce Kale Chard & Microgreens,3.99,4,Kroger,0.9975,41
 Rao's Homemade® Marinara Sauce,6.99,24,Kroger,0.29125,42
-Rao's Homemade® Marinara Sauce,10.49,32,Kroger,0.437083333,42
+Rao's Homemade® Marinara Sauce,10.49,32,Kroger,0.3278125,42
 Prego® Marinara Sauce,2.79,24,Kroger,0.11625,42
 Kroger® Marinara Pasta Sauce,1.67,24,Kroger,0.069583333,42
 Kroger® Marinara Pasta Sauce,3.39,43,Kroger,0.078837209,42
@@ -213,7 +212,7 @@ Silk Dairy Free Vegan Organic Unsweetened Plain Soy Milk Half Gallon,4.29,64,Kro
 Silk Dairy Free Protein Original Soy Milk Half Gallon,4.29,61.28571429,Kroger,0.07,43
 Silk Dairy Free Dark Chocolate Almond Milk Half Gallon,3.59,59.83333333,Kroger,0.06,43
 Ripple® Original Unsweetened Plant-Based Milk,5.29,64,Kroger,0.08265625,43
-Quaker® Quick Oats,4.99,42,Kroger,0.44,44
+Quaker® Quick Oats,4.99,42,Kroger,0.118809524,44
 Quaker® Protein Old Fashioned Rolled Oats,5.99,42,Kroger,0.142619048,44
 Quaker® Old Fashioned Oats,3.79,18,Kroger,0.210555556,44
 Quaker® Old Fashioned Oats,4.99,42,Kroger,0.118809524,44
@@ -224,7 +223,7 @@ Simple Truth Organic® Canola Oil,6.99,25.4,Kroger,0.27519685,45
 Kroger® Pure Canola Oil,3.79,48,Kroger,0.078958333,45
 Kroger® 100% Pure Canola Oil,10.99,157,Kroger,0.07,45
 Kroger® 100% Pure Canola Oil,3.49,12.92592593,Kroger,0.27,45
-Cobram Estate Extra Virgin Classic Flavor Olive Oil 25.4 fl oz,20.99,25.4,Kroger,0.83,45
+Cobram Estate Extra Virgin Classic Flavor Olive Oil 25.4 fl oz,20.99,25.4,Kroger,0.826377953,45
 Better Body Foods® Naturally Blended Avocado Oil,17.99,25.5,Kroger,0.705490196,45
 Better Body Foods® Naturally Blended Avocado Oil,17.99,25.5,Kroger,0.705490196,45
 Simple Truth Organic® Unfiltered Extra Virgin Olive Oil,8.49,16.98,Kroger,0.5,46
@@ -237,24 +236,24 @@ Kroger® Extra Virgin Olive Oil,36.99,68,Kroger,0.543970588,46
 Graza® Extra Virgin Olive Oil,10.99,25.4,Kroger,0.432677165,46
 Private Selection® White Boiler Sweet Onions,2.99,6,Kroger,0.498333333,47
 Peeled Jumbo White Onions,1.87,0.751004016,Kroger,2.49,47
-Kroger® White Onion 3 lb Bag,3.79,48,Kroger,1.263333333,47
+Kroger® White Onion 3 lb Bag,3.79,48,Kroger,0.078958333,47
 Jumbo White Onions,0.65,0.503875969,Kroger,1.29,47
-Jumbo Red Onions,0.75,0.503355705,Kroger,1.49,47
-Jumbo Red Onions,0.75,0.503355705,Kroger,1.49,47
+Jumbo Red Onions,0.75,0.503355705,Kroger,1.489999999,47
+Jumbo Red Onions,0.75,0.503355705,Kroger,1.489999999,47
 Private Selection® White Pearl Sweet Onions,2.99,6,Kroger,0.498333333,48
-Peeled Jumbo Red Onions,1.25,0.502008032,Kroger,2.49,48
-Organic Jumbo Red Onions,1.6,0.501567398,Kroger,3.19,48
+Peeled Jumbo Red Onions,1.25,0.502008032,Kroger,2.490000001,48
+Organic Jumbo Red Onions,1.6,0.501567398,Kroger,3.190000001,48
 Kroger® Vine Ripe Tomatoes,3.19,20,Kroger,0.1595,48
-Kroger® Red Onion 3 lb Bag,4.29,48,Kroger,1.43,48
-Kroger® Red Onion 3 lb Bag,4.29,48,Kroger,1.43,48
-Jumbo Red Onions,0.75,0.503355705,Kroger,1.49,48
-Jumbo Red Onions,0.75,0.503355705,Kroger,1.49,48
+Kroger® Red Onion 3 lb Bag,4.29,48,Kroger,0.089375,48
+Kroger® Red Onion 3 lb Bag,4.29,48,Kroger,0.089375,48
+Jumbo Red Onions,0.75,0.503355705,Kroger,1.489999999,48
+Jumbo Red Onions,0.75,0.503355705,Kroger,1.489999999,48
 Private Selection® White Pearl Sweet Onions,2.99,6,Kroger,0.498333333,49
 Private Selection® White Boiler Sweet Onions,2.99,6,Kroger,0.498333333,49
 Peeled Jumbo White Onions,1.87,0.751004016,Kroger,2.49,49
-Kroger® Yellow Onion 3 lb Bag,2.99,48,Kroger,0.996666667,49
-Kroger® White Onion 3 lb Bag,3.79,48,Kroger,1.263333333,49
-Jumbo Yellow Onions,0.6,0.504201681,Kroger,1.19,49
+Kroger® Yellow Onion 3 lb Bag,2.99,48,Kroger,0.062291667,49
+Kroger® White Onion 3 lb Bag,3.79,48,Kroger,0.078958333,49
+Jumbo Yellow Onions,0.6,0.504201681,Kroger,1.189999999,49
 Kroger® Vine Ripe Tomatoes,3.19,20,Kroger,0.1595,50
 Fresh Yellow Bell Pepper,1.59,5,Kroger,0.318,50
 Fresh Red Bell Pepper,1.39,5,Kroger,0.278,50
@@ -265,11 +264,9 @@ Tropicana Pure Premium Original Some Pulp No Sugar Added 100% Orange Juice,3.5,4
 Tropicana Pure Premium Original No Pulp No Sugar Added 100% Orange Juice,3.5,15,Kroger,0.233333333,51
 Tropicana Pure Premium Original Lots Of Pulp No Sugar Added 100% Orange Juice,3.5,43.75,Kroger,0.08,51
 Tropicana Pure Premium No Pulp Original Orange Juice,7.99,46,Kroger,0.173695652,51
-Tampico Citrus Punch 15 - 10 fl oz Bottles,5.99,149.75,Kroger,0.04,51
-Simply Peach All Natural Juice,3.29,46,Kroger,0.071521739,51
 OREO Mini Chocolate Sandwich Cookies Multipack,6.99,13.29,Kroger,0.525959368,53
 OREO Double Stuf Chocolate Sandwich Cookies Family Size,5.29,18.7,Kroger,0.282887701,53
-OREO Chocolate Sandwich Cookies Family Size,5.29,18.12,Kroger,0.495318352,53
+OREO Chocolate Sandwich Cookies Family Size,5.29,18.12,Kroger,0.291942605,53
 OREO Chocolate Sandwich Cookies,4.49,13.29,Kroger,0.337848006,53
 OREO Chocolate Creme Chocolate Sandwich Cookies Family Size,5.29,18.12,Kroger,0.291942605,53
 Kroger® Canned Pineapple Tidbits in Pineapple Juice,1.89,20,Kroger,0.0945,54
@@ -286,17 +283,17 @@ Kroger® Fresh Seedless Red Grapes in Clamshell,7.99,3,Kroger,2.663333333,57
 Kroger® Fresh Seedless Red Grapes,4.98,2,Kroger,2.49,57
 Fresh Medium Ripe Avocado,1,6.6,Kroger,0.151515152,57
 Fresh Gum Drops Seedless Purple Grapes in Bag,5.98,2,Kroger,2.99,57
-Jumbo Red Onions,0.75,0.503355705,Kroger,1.49,58
+Jumbo Red Onions,0.75,0.503355705,Kroger,1.489999999,58
 Fresh Red Hothouse Bell Pepper,1.59,5,Kroger,0.318,58
 Fresh Large Green Bell Pepper,0.99,6,Kroger,0.165,58
-Kroger® Long Grain Rice,3.59,80,Kroger,0.044875,59
-Kroger® Long Grain Rice,6.99,160,Kroger,0.0436875,59
+Kroger Long Grain Rice - 5 lbs,3.59,80,Kroger,0.044875,59
+Kroger Long Grain Rice - 10 lbs,6.99,160,Kroger,0.0436875,59
 Kroger® Enriched Medium Grain Rice,1.29,18.42857143,Kroger,0.07,59
 Kroger® Enriched Medium Grain Rice,2.39,32,Kroger,0.0746875,59
 Kroger® Enriched Long Grain White Rice,1.79,29.83333333,Kroger,0.06,59
 "Ben's Original Enriched Long Grain White Rice, Parboiled Rice, 5 lb Bag",7.99,16,Kroger,0.499375,59
 Yukon Gold Potatoes,0.63,0.372781065,Kroger,1.69,60
-Russet Potato,0.74,0.747474747,Kroger,0.99,60
+Russet Potato,0.74,0.747474747,Kroger,0.990000001,60
 Kroger® Russet Potatoes,2.79,5,Kroger,0.558,60
 Kroger® Red Potatoes,5.49,5,Kroger,1.098,60
 Kroger® Jumbo Russet Potatoes,7.49,8,Kroger,0.93625,60
@@ -313,27 +310,23 @@ Graza® Sizzle Extra Virgin Olive Oil Cooking Spray,8.99,16,Kroger,0.561875,62
 "Crisco All-Vegetable Shortening Sticks, Gluten-Free",6.99,48,Kroger,0.145625,62
 Chosen Foods Avocado Oil Shortening,9.99,33.8,Kroger,0.29556213,62
 Better Body Foods® Naturally Blended Avocado Oil,17.99,33.94339623,Kroger,0.53,62
-So Delicious Dairy Free Vegan Nog Coconut Milk Quart,3,16.9,Kroger,0.177514793,63
-Simple Truth® Dairy Free Original Coconut Milk Half Gallon,3.79,48,Kroger,0.078958333,63
 Silk Dairy Free Vegan Organic Unsweetened Plain Soy Milk Half Gallon,4.29,64,Kroger,0.06703125,63
 Silk Dairy Free Heavy Whipping Cream Alternative Carton,3.99,15.96,Kroger,0.25,63
 Country Crock Homestyle Dairy Free Heavy Whipping Cream,3.49,16,Kroger,0.218125,63
-Califia Farms® Dairy-Free Organic Unsweetened Original Coconut Milk,5.99,28.52380952,Kroger,0.21,63
 Stouffer's Spinach Souffle Single Serve Frozen Spinach Single Frozen Meals,3.29,12.18518519,Kroger,0.27,64
 Simple Truth Organic® Baby Spinach BIG DEAL!,5,41.66666667,Kroger,0.12,64
 Simple Truth Organic® Baby Spinach,3.49,12,Kroger,0.290833333,64
 Kroger® Tender Baby Spinach Bag Salad,2.19,5,Kroger,0.438,64
 Kroger® Recipe Beginnings® Frozen Spinach Chopped,1.49,10,Kroger,0.149,64
 Kroger® Recipe Beginnings® Frozen Spinach Chopped,1.79,12,Kroger,0.149166667,64
-Kroger® Pure Refined Coconut Oil,8.99,89.9,Kroger,0.1,65
 Graza® Frizzle High Heat Cooking Oil Spray,7.99,4.99375,Kroger,1.6,65
 "Crisco Pure Canola Oil, Gluten-Free",4,36.36363636,Kroger,0.11,65
 "Crisco Pure Canola Oil, Gluten-Free",13.99,5,Kroger,2.798,65
 Better Body Foods® Naturally Blended Avocado Oil,17.99,128,Kroger,0.140546875,65
 Sweet Success Strawberries CA,4.99,10,Kroger,0.499,66
-Fresh Strawberries – 1 LB Clamshell,3.99,16,Kroger,3.99,66
-Fresh Strawberries - 2 LB Clamshell,8.79,32,Kroger,4.395,66
-Fresh Organic Strawberries - 1 LB clamshell,6.99,16,Kroger,6.99,66
+Fresh Strawberries – 1 LB Clamshell,3.99,16,Kroger,0.249375,66
+Fresh Strawberries - 2 LB Clamshell,8.79,32,Kroger,0.2746875,66
+Fresh Organic Strawberries - 1 LB clamshell,6.99,16,Kroger,0.436875,66
 Fresh Bunch of Bananas – 5-7 Bananas,1.16,2.109090909,Kroger,0.55,66
 Fresh Blueberries - 18 OZ - Clamshell,6.99,18,Kroger,0.388333333,66
 Welch's® Natural Strawberry Spread,4.99,27.72222222,Kroger,0.18,67
@@ -347,7 +340,7 @@ Smart Way™ Granulated Sugar,6.99,160,Kroger,0.0436875,68
 Smart Way™ Granulated Sugar,16.99,400,Kroger,0.042475,68
 Kroger® Pure Cane Granulated Sugar,4.39,4,Kroger,1.0975,68
 Domino Premium Pure Cane Granulated Sugar,11.99,160,Kroger,0.0749375,68
-Domino Premium Pure Cane Granulated Sugar,6.79,56,Kroger,0.679,68
+Domino Premium Pure Cane Granulated Sugar,6.79,56,Kroger,0.12125,68
 Tide Pods Spring Meadow Laundry Detergent Pods,24.99,19,Kroger,1.315263158,69
 Tide Pods Spring Meadow Laundry Detergent Pods,15.99,80,Kroger,0.199875,69
 Tide Pods Spring Meadow Laundry Detergent Pods,7.99,39.95,Kroger,0.2,69
@@ -357,7 +350,7 @@ Tide Original Scent Liquid Laundry Detergent,12.99,76,Kroger,0.170921053,69
 Private Selection® Fresh Petite Cherry Snacking Tomatoes,5,24,Kroger,0.208333333,70
 Kroger® Vine Ripe Tomatoes,3.19,20,Kroger,0.1595,70
 Kroger® Fresh Grape Tomatoes,2.99,10,Kroger,0.299,70
-Fresh Roma Tomato,0.36,0.302521008,Kroger,1.19,70
+Fresh Roma Tomato,0.36,0.302521008,Kroger,1.190000002,70
 Fresh On the Vine Red Tomatoes by the Bunch (4-5 tomatoes per bunch),3.07,1.340611354,Kroger,2.29,70
 Fresh Large Hothouse Grown Premium Red Tomato,1.4,0.562248996,Kroger,2.49,70
 Simple Truth Organic® Tomato Sauce,1.5,8,Kroger,0.1875,71
@@ -392,7 +385,6 @@ Fleischmann's® Pizza Crust Yeast,1.69,1.083333333,Kroger,1.56,76
 Fleischmann's® Original ActiveDry Yeast,1.69,0.751111111,Kroger,2.25,76
 Fleischmann's® Active Dry Yeast,4.99,3,Kroger,1.663333333,76
 Bob's Red Mill Nutritional Yeast,7.79,6.232,Kroger,1.25,76
-Bob's Red Mill All-Purpose White Unbleached Flour,5.29,5,Kroger,1.058,76
 Kroger® Vine Ripe Tomatoes,3.19,20,Kroger,0.1595,77
 Fresh Yellow Bell Pepper,1.59,5,Kroger,0.318,77
 Fresh Red Bell Pepper,1.39,5,Kroger,0.278,77
@@ -405,5 +397,5 @@ Silk Blueberry Dairy Free Vegan Soy Milk Yogurt Alternative Cup,1.59,5.3,Kroger,
 Chobani® Dairy Free Original Oat Milk,4.69,52.11111111,Kroger,0.09,78
 Chobani® Dairy Free Extra Creamy Oat Milk,4.69,5.3,Kroger,0.88490566,78
 Zucchini Tray,2.5,82,Kroger,0.030487805,79
-Organic Zucchini Squash,0.85,0.355648536,Kroger,2.39,79
+Organic Zucchini Squash,0.85,0.355648536,Kroger,2.389999997,79
 Baby Green Zucchini,1.2,1,Kroger,1.2,79
