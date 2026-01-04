@@ -2,6 +2,15 @@ import pandas as pd
 import streamlit as st
 from pathlib import Path
 
+store_colors = {
+    "Walmart": "#0071ce",     # Walmart Blue
+    "Target": "#cc0000",      # Target Red
+    "Publix": "#007a33",      # Publix Green
+    "Kroger": "#1c4fa1",      # Kroger Blue
+    "Trader Joe's": "#d62828" # Trader Joe's Red
+}
+
+
 st.set_page_config(page_title="Grocery Price Comparator", layout="wide")
 st.title("Grocery Price Comparator")
 st.markdown("""
@@ -134,7 +143,13 @@ display_df = filtered[[
 
 display_df["Price"] = display_df["Price"].map(lambda x: f"{x:.2f}")
 display_df["Ounces"] = display_df["Ounces"].map(lambda x: f"{x:.2f}")
-display_df["Price per ounce"] = display_df["Price per ounce"].map(lambda x: f"{x:.2f}")
+display_df["Price per ounce"] = display_df["Price per ounce"].map(lambda x: f"{x:.3f}")
+
+def color_store(val):
+    color = store_colors.get(val, "#000000")
+    return f"color: {color}; font-weight: 600;"
+
+styled = display_df.style.applymap(color_store, subset=["Source"])
 
 st.dataframe(
     display_df,
@@ -144,5 +159,5 @@ st.dataframe(
 #TODO
 #Change colors of Source/Store column to be color of store - Walmart Blue/Yellow, Trader Joes - Brown/Red
 #Make option for Entire Table combined in one
-#Add Sams Club, Target
+#Add Target? Maybe
 #Add images
