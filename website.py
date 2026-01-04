@@ -148,11 +148,20 @@ display_df["Price per ounce"] = display_df["Price per ounce"].map(lambda x: f"{x
 def color_store(val):
     color = store_colors.get(val, "#000000")
     return f"color: {color}; font-weight: 600;"
+def shade_rows(row):
+    if row.name % 2 == 0:
+        return ["background-color: #f4f6f8"] * len(row)
+    else:
+        return [""] * len(row)
 
-styled = display_df.style.applymap(color_store, subset=["Source"])
+styled = (
+    display_df.style
+    .apply(shade_rows, axis=1)
+    .applymap(color_store, subset=["Source"])
+)
 
 st.dataframe(
-    display_df,
+    styled,
     width='stretch'
 )
 
