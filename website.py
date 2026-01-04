@@ -155,9 +155,7 @@ def shade_rows(row):
         return [""] * len(row)
 
 styled = (
-    display_df.style
-    .apply(shade_rows, axis=1)
-    .applymap(color_store, subset=["Source"])
+    display_df.style.applymap(color_store, subset=["Source"])
 )
 
 st.dataframe(
