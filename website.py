@@ -3,11 +3,13 @@ import streamlit as st
 from pathlib import Path
 
 store_colors = {
-    "Walmart": "#0071ce",     # Walmart Blue
+    "Walmart": "#ecec3d",     # Walmart Blue
     "Target": "#cc0000",      # Target Red
     "Publix": "#007a33",      # Publix Green
-    "Kroger": "#1c4fa1",      # Kroger Blue
-    "Trader Joe's": "#d62828" # Trader Joe's Red
+    "Kroger": "#ffffff",      # Kroger Blue
+    "Trader Joe's": "#ff8d47", # Trader Joe's Red
+    "Food City": "#d62828",
+    "SamsClub": "#004B8D"
 }
 
 
