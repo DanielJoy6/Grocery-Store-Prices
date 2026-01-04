@@ -73,7 +73,6 @@ Organic Celery,2.49,1.5,Kroger,1.66,15
 Kroger® Cut & Peeled Carrot Sticks,1.99,12,Kroger,0.165833333,15
 Fresh Cut Celery and Carrot Sticks,5,14,Kroger,0.357142857,15
 Celery Hearts,3.79,16,Kroger,0.236875,15
-Dr Pepper Soda Cans,10.99,137.375,Kroger,0.08,16
 Dr Pepper Cherry Soda Cans,10.99,137.375,Kroger,0.08,16
 Coca-Cola® Vanilla Soda Cans,10.99,12,Kroger,0.915833333,16
 Coca-Cola® Soda Cans,10.99,12,Kroger,0.915833333,16
@@ -85,7 +84,6 @@ Heritage Farm� Boneless Skinless Chicken Breasts,13.46,72,Kroger,0.186944444,17
 Simple Truth Organic™ Dutched Unsweetened Cocoa Powder,6.99,8,Kroger,0.87375,18
 Bob's Red Mill Gluten Free Almond Flour,8.99,15.5,Kroger,0.58,18
 Bob's Red Mill Gluten Free 1-to-1 Baking Flour,4.99,8.910714286,Kroger,0.56,18
-Bob's Red Mill Decadent Chocolate Cake Mix,3.49,15.17391304,Kroger,0.23,18
 Smart Way™ Ground Cinnamon,1.25,1.953125,Kroger,0.64,19
 Simple Truth Organic™ Ground Saigon Cinnamon,3.99,2.37,Kroger,1.683544304,19
 Private Selection® Ground Cinnamon Shaker,3.49,2.37414966,Kroger,1.47,19
@@ -113,8 +111,6 @@ Fresh Sweet Corn on the Cob-Each,0.75,3.5,Kroger,0.214285714,22
 Rumford® Corn Starch,4.39,27.4375,Kroger,0.16,23
 Maizena® Corn Starch,1.99,16,Kroger,0.124375,23
 Kroger® Pure Corn Starch,1.99,5,Kroger,0.398,23
-Bob's Red Mill Gluten Free Arrowroot Starch Flour,7.29,15.84782609,Kroger,0.46,23
-Bob's Red Mill All-Purpose White Unbleached Flour,5.29,16,Kroger,0.330625,23
 Argo® 100% Pure Corn Starch,2.54,36.28571429,Kroger,0.07,23
 Simple Truth Organic® Basil Leaves Shaker,3.99,0.5,Kroger,7.98,24
 Private Selection® Mediterranean Basil Leaves Shaker,4.49,0.969762419,Kroger,4.63,24
@@ -135,11 +131,7 @@ Kroger® All Purpose Bleached Enriched Flour,1.59,5,Kroger,0.318,26
 Gold Medal All Purpose Flour,4.49,5,Kroger,0.898,26
 Bob's Red Mill All-Purpose White Unbleached Flour,5.29,75.57142857,Kroger,0.07,26
 Private Selection® Sliced Frozen Strawberries in Sugar,3.99,15.96,Kroger,0.25,27
-Private Selection® Sliced Freestone Frozen Peaches,3.99,16,Kroger,0.249375,27
-Private Selection® Frozen Super Sweet Pineapple Chunks,3.99,24.9375,Kroger,0.16,27
 Kroger® Frozen Sliced Bananas,2.49,18,Kroger,0.138333333,27
-Tru Fru Fresh Frozen Strawberries in White & Milk Chocolate,18.49,17.95145631,Kroger,1.03,28
-Tru Fru Fresh Frozen Strawberries in Dark & White Chocolate,7.49,48,Kroger,0.156041667,28
 Simple Truth Organic® Frozen Sliced Strawberries BIG DEAL!,9.99,30.27272727,Kroger,0.33,28
 Simple Truth Organic® Frozen Sliced Strawberries,3.29,17.31578947,Kroger,0.19,28
 Private Selection® Frozen Sliced Strawberries,8.99,18,Kroger,0.499444444,28
@@ -149,24 +141,19 @@ Simple Truth Organic® Frozen Corn Whole Kernel Cut,2.59,25.9,Kroger,0.1,29
 Kroger® Traditional Favorites Frozen Sweet Corn BIG DEAL!,5.49,24.95454545,Kroger,0.22,29
 Kroger® Traditional Favorites Frozen Corn Super Sweet,1.25,12,Kroger,0.104166667,29
 Kroger® Traditional Favorites Frozen Corn Super Sweet,2.99,32,Kroger,0.0934375,29
-Alexia® Rosemary Fries Frozen Potatoes,5.49,27.45,Kroger,0.2,29
 Organic Large Gala Apple – Each,1.12,0.449799197,Kroger,2.49,30
 Large Gala Apple - Each,0.75,0.503355705,Kroger,1.49,30
 Kroger® Gala Apples – 3 Pound Bag,3.99,3,Kroger,1.33,30
-Kroger® Fuji Apples – 3 Pound Bag,4.99,3,Kroger,1.663333333,30
 Crunch Pak® Grab 'N Go Organic Sweet Apple Slices,4.49,5,Kroger,0.898,30
-Crunch Pak® Bluey Snacker with Peeled Sweet Apples Animal Crackers & Reduced Sugar Fruit Snacks,2.99,4.25,Kroger,0.703529412,30
 Spice World® Fresh Diced Garlic,3.49,8,Kroger,0.43625,31
 Spice World Organic Minced Garlic 8 oz,4.49,8.98,Kroger,0.5,31
 Spice World Minced Garlic 8 oz,3.99,4.5,Kroger,0.886666667,31
 Spice World Minced Garlic 4.5 oz,2.49,4.527272727,Kroger,0.55,31
-Private Selection® Cipollini Sweet Onions,2.99,5.339285714,Kroger,0.56,31
 Small Granny Smith Apple - Each,0.67,9,Kroger,0.074444444,32
 Large Granny Smith Apple - Each,1,0.502512563,Kroger,1.99,32
 Kroger® Granny Smith Apples – 5 Pound Bag,5,5,Kroger,1,32
 Kroger® Granny Smith Apples – 3 Pound Bag,3.99,3,Kroger,1.33,32
 Crunch Pak® Grab 'N Go Organic Sweet Apple Slices,4.49,5,Kroger,0.898,32
-Crunch Pak® Bluey Snacker with Peeled Sweet Apples Animal Crackers & Reduced Sugar Fruit Snacks,2.99,4.25,Kroger,0.703529412,32
 Fresh Yellow Bell Pepper,1.59,5,Kroger,0.318,33
 Fresh Yellow Banana Peppers,1.94,0.648829431,Kroger,2.99,33
 Fresh Red Hothouse Bell Pepper,1.59,5,Kroger,0.318,33
